@@ -1,0 +1,104 @@
+
+MoM (27/10/2024)
+-----------------
+Home:
+=====
+1) Manufacturing unit Design Buttons
+2) Fun Facts design Changed
+
+PEB Service Page:
+================
+1) Banner
+2) Over view Product
+3) Applications
+4) Why Choose Us
+5) Primary Frame structure
+6) Types of Primary Frame structure
+7) PEB Accessories
+8) FAQ
+9) Testimonials
+10) News (Blog)
+
+
+Other Service Pages:
+===================
+1) Banner
+2) Over View
+3) Advantages
+4) Why Choose Us
+5) Applications
+6) FAQ
+7) Gallery
+8) Form
+
+Manufacturing Unit:
+==================
+1) Banner
+2) Over view
+3) Table of Units
+4) Machines (Same as Applications Design)
+5) Unit of Address
+
+
+Mekark (Designs)
+================
+1) https://codepen.io/syahrizaldev/pen/gOOKQWw ==> Gallery
+2) https://codepen.io/knyttneve/pen/jXpxPv  ==> Types of frame structure
+3) https://codepen.io/componentity/pen/BaKrOYv ==> Manufacturing unit table
+4) https://codepen.io/componentity/pen/oNxdNNr ==> Testimonials
+5) https://codepen.io/componentity/pen/BaKrOOb ==> why chooses us
+6) https://codepen.io/componentity/pen/poypwmv ==> Advantages
+7) https://codepen.io/componentity/pen/RwajNdW ==> Blog
+8) https://codepen.io/componentity/pen/NWNKLOW ==> Applications
+   https://codepen.io/littlesnippets/pen/KVeZmV ==> 	"
+   https://codepen.io/littlesnippets/pen/zvgPma ==> "
+9) https://codepen.io/componentity/pen/PoNeGRd ==> PEB Accessories
+10) https://codepen.io/Astralh/pen/ERbygE ==> Address of unit
+
+
+
+
+Total Pages (22 - 25)
+=====================
+1) Home
+2) About
+3) PEB
+4) Multi Story steel Buildings
+5) Warehouse Shed
+6) Industrial Shed
+7) Factory Shed
+8) Industrial Enclosure
+9) Civil Constructions
+10) MEP
+11) Design Services
+12) MLCP
+13) Solar
+14) Manufacturing Unit
+15) Blog (Common Page)
+16) Blog Separate Page
+17) Career
+18) Contact Us
+19) Expo
+20) Team Outing
+21) Office Calibrations
+22) Space Frame Structure
+
+Pending Pages: (3)
+==================
+23) Pressure Parts
+24) Non Pressure Parts
+25) Storage Units
+
+
+Unci Designs (10 Different Designs)
+==================================
+1) Home
+2) About
+3) PEB
+4) Other Services
+5) Manufacturing Unit
+6) Solar
+7) Blog Common Page
+8) Blog Separate Page
+9) Carries Page
+10) Contact Us

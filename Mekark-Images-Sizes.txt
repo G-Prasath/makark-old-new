@@ -1,0 +1,41 @@
+Mekark Images Sizes
+===================
+
+Home
+----
+Banner => 1500 x 1000 (2 Images)
+Profile => 500 x 500 (3 Images)
+Capabilities => 367 x 367 (4 Images)
+Manufacturing Unites => 500 x 500 (3 Images)
+Services => 630 x 540 (12 Images)
+Our Designs => 500 x 500 (4 Images)
+
+About
+-----
+Banner => 1500 x 1000
+Profile => 700 x 450
+Working For Us => 680 x 500
+Public Welfare => 600 x 400 (3 Images Each Sections)
+Managing Director => 720 x 490 (1 Image)
+Our Team => 700 x 500
+Organization Culture => 300 x 300 (3 Images)
+Awards => 425 x 425 (6 Images)
+
+Manufacturing unit
+------------------
+Banner => 1500 x 1000
+Profile => 996 x 665
+Units => 728 x 485 (3 Units)
+Applications => 300 x 300 (Depends on App)
+
+PEB
+---
+Banner => 1500 x 1000
+Profile => 750 x 400
+Primary Frames Structure => 1500 x 1000 (1Images)
+space frame structure list => 500 x 500 (6 Images)
+Applications => 300 x 300 (Depends on App)
+Why Choose => 470 x 316 (1 Image)
+PEB Accessories => 300 x 300 (5 Images)
+Gallery => 500 x 300 (6 Images)
+Testimonial => 120 x 120 (3 Images)

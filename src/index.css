@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+  overflow-x: hidden;
+}
+
+/* ========= All Sec Paddings ========  */
+.sec-padding {
+  @apply px-4 py-8 md:px-6 lg:px-8;
+}
+
+
+/* ========== Form Error Style ============  */
+.form-error {
+  color: red;
+}
+
+/* =========== Fun Facts Card ===========  */
+.counter-card {
+    backdrop-filter: blur(8px) saturate(200%);
+    -webkit-backdrop-filter: blur(8px) saturate(200%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}

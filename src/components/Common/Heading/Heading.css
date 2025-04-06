@@ -1,0 +1,30 @@
+
+.main-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #305764;
+}
+
+.blog-head .sec-title{
+  color: #305764;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.blog-head .sec-title:after, .blog-head .sec-title:before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #e59350;
+  top: 50%;
+}
+
+.blog-head .sec-title:after{
+  right: 105%;
+}
+
+.blog-head .sec-title:before{
+  left: 105%;
+}

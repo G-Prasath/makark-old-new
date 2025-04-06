@@ -1,0 +1,136 @@
+Total Pages ==> 30
+Seprate UI pages ==> 8
+
+=============
+Pages
+=============
+1) Home
+2) About
+3) Products
+    1) Pre-Engineered Building
+    2) Multi-Storey Steel Building
+    3) Space Frame Structure
+    4) Warehouse Shed 
+    5) Industrial Shed
+    6) Factory Buildings
+    7) Industrial Enclosures
+    8) Civil Construction
+    9) MEP
+    10) Design Services
+    11) Multi Level Car Parking System
+4) Equipment
+    1) Pressure Part
+    2) Non-Pressure Part
+    3) Storage Unit
+5) Ingsights
+    1) Our Projects
+        1) Gallery
+        2) Videos
+    2) Infographics
+    3) Blog
+6) Events
+    1) Chennai Events  
+    2) Madurai Events
+    3) Office Celibrations
+7) Contact
+8) Careers
+9) PrivacyPolicy
+
+
+
+================
+Cananical List
+================
+www.mekark.com 
+/
+/about
+
+---------- Services ----------
+
+/pre-engineered-building-manufacturer-company-chennai
+/multi-storey-building-manufacturer
+/space-frame-structure-building
+/warehouse-shed-manufacturer-chennai
+/peb-industrial-shed-supplier
+/factory-building-manufacturer
+/industrial-enclosures-acoustic-manufacturer
+/civil-construction-company-chennai
+/mep-consultant-chennai
+/architectural-design-detailing-drafting-chennai
+/multi-level-car-parking-system-manufacturer-company-chennai
+
+----------- Equipment ------------
+
+/pressure-parts-equipment-accessories
+/non-pressure-parts-equipment-accessories
+/storage-parts-equipment-accessories
+
+------------ Insights -------------
+/blog
+/gallery
+/videos
+/infographics
+
+----------- Events --------------
+/chennai-events
+/madurai-events
+/office-celebration
+/privacy-policy
+
+/contact-us
+/career
+
+
+============ Social Media Links ==============
+https://www.facebook.com/mekarkindustrialmanufacturers
+https://twitter.com/MekarkPEB
+https://www.linkedin.com/in/mekark-peb-856448264/
+https://in.pinterest.com/mekarkindustrialmanufacturer/
+https://www.instagram.com/mekarkindustrial?igshid=NzZlODBkYWE4Ng%3D%3D
+https://www.youtube.com/channel/UCsCdBcilS4Ib5l1C7l2u3bg
+
+
+
+Mekark Images
+=============
+
+1) Home Page
+------------
+Banner ==> 
+About ==> 3 images (500 x 500)
+Capability ==> 4 images (360 x 360)
+Portfolio ==> 12 service images (630 x 540)
+Design Process ==> 4 images (500 x 500)
+Blog ==> 3 images (450 x 200)
+
+
+===============================
+HOME PENDING
+===============================
+
+Content needed for Testimonial & design system
+Images for In-House Capabilities
+
+images for in house Capabilities + Design HVAC + Products two
+
+
+================== Pendigs ================
+23/11/2024
+==========
+
+About us
+--------
+Our Foot Prints -> Pending Locations List
+Welfare --> Pending Images
+our locations --> black icon replace to change
+Sustainable Future --> text and one bg images
+Awards --> images
+
+peb
+----
+Profile Full Images --> Image
+Primary Frame Structures --> image
+Space Frame Structures --> images
+Accessories --> text, images
+FAQ --> Content
+Testimonials --> content, images

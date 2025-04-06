@@ -17,9 +17,22 @@ import Whychoose from "../components/About/WhyChoose";
 import OrganizationCulture from "../components/About/OrganizationCulture";
 import WorkSafety from "../components/About/WorkSafety";
 
+
+import { Helmet } from "react-helmet-async";
+import { AboutPageMeta as metaTags } from "../data/Metatags";
+
+
+
 const About = () => {
   return (
     <div>
+      <Helmet>
+        <title>{metaTags.title}</title>
+        <meta name="description" content={metaTags.description} />
+        <meta name="keywords" content={metaTags.keywords} />
+        <link rel="canonical" href={metaTags.canonical} />
+      </Helmet>
+
       <AboutBanner />
       <AboutProfile />
       <Vision />
@@ -29,8 +42,8 @@ const About = () => {
       <Wellfare />
       <CeoSection />
       <Team />
-      <OrganizationCulture/>
-      <WorkSafety/>
+      <OrganizationCulture />
+      <WorkSafety />
       <AddressCard />
       <EnvironmentSection />
       {/* <Awards /> */}

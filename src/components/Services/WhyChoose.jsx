@@ -73,9 +73,9 @@ const FeatureItem = ({ iconPath, title, subtitle }) => (
         </div>
       </div>
       <div className="ml-4">
-        <h4 className="text-lg leading-6 text-gray-900 font-semibold">
+        {/* <h4 className="text-lg leading-6 text-gray-900 font-semibold">
           {title}
-        </h4>
+        </h4> */}
         <p className="text-gray-500 text-justify">{subtitle}</p>
       </div>
     </div>

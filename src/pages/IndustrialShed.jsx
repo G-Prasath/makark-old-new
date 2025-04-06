@@ -6,7 +6,7 @@ import Gallery from "../components/Services/Gallery";
 import Applications from "../components/Common/Applications";
 import Benifites from "../components/Services/Benifites";
 import ServiceForm from "../components/Services/ServiceForm";
-import Diffrence from "../components/Services/Diffrence";
+// import Diffrence from "../components/Services/Diffrence";
 import { Helmet } from "react-helmet-async";
 import PageBannerForm from "../components/Common/PageBannerForm";
 import ServiceFormBanner from "../components/Services/ServiceFormBanner";
@@ -29,7 +29,7 @@ const IndustrialShed = () => {
         <PageBannerForm serviceName={pageName} />
       </div>
       <Profile data={allData.profile} />
-      <Diffrence data={allData.diffrencesData} />
+      {/* <Diffrence data={allData.diffrencesData} /> */}
       <Benifites data={allData.benifites} />
       <WhyChoose data={allData.whychooseData} />
       <Applications data={allData.Applications} />

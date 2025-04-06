@@ -18,10 +18,10 @@ export const NavbarLinks = [
         label: "Multi-Storey Steel Building",
         url: "/multi-storey-building-manufacturer",
       },
-      {
-        label: "Space Frame Structure",
-        url: "/space-frame-structure-building",
-      },
+      // {
+      //   label: "Space Frame Structure",
+      //   url: "/space-frame-structure-building",
+      // },
       {
         label: "Warehouse Shed",
         url: "/warehouse-shed-manufacturer-chennai",
@@ -42,55 +42,55 @@ export const NavbarLinks = [
         label: "Civil Construction",
         url: "/civil-construction-company-chennai",
       },
-      {
-        label: "MEP",
-        url: "/mep-consultant-chennai",
-      },
-      {
-        label: "Design Services",
-        url: "/architectural-design-detailing-drafting-chennai",
-      },
-      {
-        label: "Multi Level Car Parking System",
-        url: "/multi-level-car-parking-system-manufacturer-company-chennai",
-      },
-      {
-        label: "Solor",
-        url: "/solar-power-plant",
-      }
+      // {
+      //   label: "MEP",
+      //   url: "/mep-consultant-chennai",
+      // },
+      // {
+      //   label: "Design Services",
+      //   url: "/architectural-design-detailing-drafting-chennai",
+      // },
+      // {
+      //   label: "Multi Level Car Parking System",
+      //   url: "/multi-level-car-parking-system-manufacturer-company-chennai",
+      // },
+      // {
+      //   label: "Solor",
+      //   url: "/solar-power-plant",
+      // }
     ],
   },
-  {
-    label: "Equipment",
-    submenu: [
-      {
-        label: "Pressure Part",
-        url: "/pressure-parts-equipment-accessories",
-      },
-      {
-        label: "Non-Pressure Part",
-        url: "/non-pressure-parts-equipment-accessories",
-      },
-      {
-        label: "Storage Unit",
-        url: "/storage-parts-equipment-accessories",
-      },
-    ],
-  },
+  // {
+  //   label: "Equipment",
+  //   submenu: [
+  //     {
+  //       label: "Pressure Part",
+  //       url: "/pressure-parts-equipment-accessories",
+  //     },
+  //     {
+  //       label: "Non-Pressure Part",
+  //       url: "/non-pressure-parts-equipment-accessories",
+  //     },
+  //     {
+  //       label: "Storage Unit",
+  //       url: "/storage-parts-equipment-accessories",
+  //     },
+  //   ],
+  // },
   {
     label : "Events",
     submenu : [
         {
             label: "Chennai Events",
-            url : "/chennai-events"
+            // url : "/chennai-events"
         },
         {
             label: "Madurai Events",
-            url : "/madurai-events"
+            // url : "/madurai-events"
         },
         {
             label: "Office Events",
-            url : "/office-celebration"
+            // url : "/office-celebration"
         }
     ]
   },

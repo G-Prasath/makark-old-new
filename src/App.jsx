@@ -21,38 +21,38 @@ import About from "./pages/About";
 
 import Peb from "./pages/Peb";
 import MultistorySteelBuilding from "./pages/MultistorySteelBuilding";
-import SpaceFrameStructure from "./pages/SpaceFrameStructure";
+// import SpaceFrameStructure from "./pages/SpaceFrameStructure";
 import WarehouseShed from "./pages/WarehouseShed";
 import IndustrialShed from "./pages/IndustrialShed";
 import FactoryBuildings from "./pages/FactoryBuildings";
 import InstitutionalBuilding from "./pages/InstitutionalBuilding";
 import CivilConstruction from "./pages/CivilConstruction";
-import Mep from "./pages/Mep";
-import DesignServices from "./pages/DesignServices";
-import Mlcp from "./pages/Mlcp";
+// import Mep from "./pages/Mep";
+// import DesignServices from "./pages/DesignServices";
+// import Mlcp from "./pages/Mlcp";
 
-import PressurePart from "./pages/PressurePart";
-import NonPressurePart from "./pages/NonPressurePart";
-import StorageUnit from "./pages/StorageUnit";
+// import PressurePart from "./pages/PressurePart";
+// import NonPressurePart from "./pages/NonPressurePart";
+// import StorageUnit from "./pages/StorageUnit";
 
 import ProjectGallery from "./pages/ProjectGallery";
 import ProjectVideos from "./pages/ProjectVideos";
 import Infographics from "./pages/Infographics";
 import Blog from "./pages/Blog";
 
-import ChennaiEvents from "./pages/ChennaiEvents";
-import OfficeCelibrations from "./pages/OfficeCelibrations";
-import MaduraiEvents from "./pages/MaduraiEvents";
+// import ChennaiEvents from "./pages/ChennaiEvents";
+// import OfficeCelibrations from "./pages/OfficeCelibrations";
+// import MaduraiEvents from "./pages/MaduraiEvents";
 
 import Contact from "./pages/Contact";
-import Careers from "./pages/Careers";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
+// import Careers from "./pages/Careers";
+// import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 import Manufacturing from "./pages/Manufacturing";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Solor from "./pages/Solor";
+// import Solor from "./pages/Solor";
 import ScrolltoTop from "./hooks/ScrolltoTop";
 
 const MainLayout = () => (
@@ -102,10 +102,10 @@ const App = () => {
                   path="/multi-storey-building-manufacturer"
                   element={<MultistorySteelBuilding />}
                 />
-                <Route
+                {/* <Route
                   path="/space-frame-structure-building"
                   element={<SpaceFrameStructure />}
-                />
+                /> */}
                 <Route
                   path="/warehouse-shed-manufacturer-chennai"
                   element={<WarehouseShed />}
@@ -126,7 +126,9 @@ const App = () => {
                   path="/civil-construction-company-chennai"
                   element={<CivilConstruction />}
                 />
-                <Route path="/mep-consultant-chennai" element={<Mep />} />
+
+
+                {/* <Route path="/mep-consultant-chennai" element={<Mep />} />
                 <Route
                   path="/architectural-design-detailing-drafting-chennai"
                   element={<DesignServices />}
@@ -135,9 +137,8 @@ const App = () => {
                   path="/multi-level-car-parking-system-manufacturer-company-chennai"
                   element={<Mlcp />}
                 />
-                <Route path="/manufacturing" element={<Manufacturing />} />
-                <Route path="solar-power-plant" element={<Solor />} />
-
+                <Route path="solar-power-plant" element={<Solor />} /> 
+                
                 <Route
                   path="/pressure-parts-equipment-accessories"
                   element={<PressurePart />}
@@ -149,22 +150,23 @@ const App = () => {
                 <Route
                   path="/storage-parts-equipment-accessories"
                   element={<StorageUnit />}
-                />
+                /> */}
+
+                <Route path="/manufacturing" element={<Manufacturing />} />
+
 
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/gallery" element={<ProjectGallery />} />
                 <Route path="/videos" element={<ProjectVideos />} />
                 <Route path="/infographics" element={<Infographics />} />
 
-                <Route path="/chennai-events" element={<ChennaiEvents />} />
+                {/* <Route path="/chennai-events" element={<ChennaiEvents />} />
                 <Route path="/madurai-events" element={<MaduraiEvents />} />
-                <Route
-                  path="/office-celebration"
-                  element={<OfficeCelibrations />}
-                />
+                <Route path="/office-celebration" element={<OfficeCelibrations />} /> */}
+
                 <Route path="/contact-us" element={<Contact />} />
-                <Route path="/career" element={<Careers />} />
-                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                {/* <Route path="/career" element={<Careers />} /> */}
+                {/* <Route path="/privacy-policy" element={<PrivacyPolicy />} /> */}
               </Route>
               <Route element={<NoNavbarLayout />}>
                 <Route path="*" element={<NotFound />} />

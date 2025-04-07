@@ -1,4 +1,5 @@
 import React from "react";
+import { TensileData as allData } from "../data/ServicesData";
 import Profile from "../components/Services/Profile";
 import WhyChoose from "../components/Services/WhyChoose";
 import FAQ from "../components/Services/Faq";
@@ -8,14 +9,13 @@ import Benifites from "../components/Services/Benifites";
 import ServiceForm from "../components/Services/ServiceForm";
 // import Diffrence from "../components/Services/Diffrence";
 import { Helmet } from "react-helmet-async";
+import {Tensile_PageMeta as metaTags } from '../data/Metatags'
 import PageBannerForm from "../components/Common/PageBannerForm";
 import ServiceFormBanner from "../components/Services/ServiceFormBanner";
 
-import { MLCPData as allData } from "../data/ServicesData";
-import { MultiLevelCarParking_PageMeta as metaTags } from "../data/Metatags";
 
-const Mlcp = () => {
-  const pageName = "Multi Level Car Parking";
+const Tensile = () => {
+  const pageName = "Tensile Fabric Roofing";
   return (
     <div>
       <Helmet>
@@ -26,7 +26,7 @@ const Mlcp = () => {
       </Helmet>
       <ServiceFormBanner data={allData.banner} location={pageName} />
       <div className="lg:hidden block">
-        <PageBannerForm serviceName={pageName} />
+        <PageBannerForm serviceName={pageName}/>
       </div>
       <Profile data={allData.profile} />
       {/* <Diffrence data={allData.diffrencesData} /> */}
@@ -38,6 +38,6 @@ const Mlcp = () => {
       <ServiceForm serviceName={pageName} />
     </div>
   );
-}
+};
 
-export default Mlcp
+export default Tensile;

@@ -21,15 +21,21 @@ import About from "./pages/About";
 
 import Peb from "./pages/Peb";
 import MultistorySteelBuilding from "./pages/MultistorySteelBuilding";
-// import SpaceFrameStructure from "./pages/SpaceFrameStructure";
 import WarehouseShed from "./pages/WarehouseShed";
 import IndustrialShed from "./pages/IndustrialShed";
 import FactoryBuildings from "./pages/FactoryBuildings";
 import InstitutionalBuilding from "./pages/InstitutionalBuilding";
 import CivilConstruction from "./pages/CivilConstruction";
+import Solor from "./pages/Solor";
+import Tensile from "./pages/Tensile";
+import Mlcp from "./pages/Mlcp";
+import Manufacturing from "./pages/Manufacturing";
+
+
+
+// import SpaceFrameStructure from "./pages/SpaceFrameStructure";
 // import Mep from "./pages/Mep";
 // import DesignServices from "./pages/DesignServices";
-// import Mlcp from "./pages/Mlcp";
 
 // import PressurePart from "./pages/PressurePart";
 // import NonPressurePart from "./pages/NonPressurePart";
@@ -48,11 +54,9 @@ import Contact from "./pages/Contact";
 // import Careers from "./pages/Careers";
 // import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
-import Manufacturing from "./pages/Manufacturing";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import Solor from "./pages/Solor";
 import ScrolltoTop from "./hooks/ScrolltoTop";
 
 const MainLayout = () => (
@@ -84,6 +88,46 @@ const App = () => {
     Aos.init({ once: true });
   }, []);
 
+
+  const routes = [
+    { path: '/', element: <Home /> },
+    { path: '/about-us', element: <About /> },
+  
+    // Products / Services
+    { path: '/pre-engineered-building-manufacturer-company-chennai', element: <Peb /> },
+    { path: '/multi-storey-building-manufacturer', element: <MultistorySteelBuilding /> },
+    { path: '/warehouse-shed-manufacturer-chennai', element: <WarehouseShed /> },
+    { path: '/peb-industrial-shed-supplier', element: <IndustrialShed /> },
+    { path: '/factory-building-manufacturer', element: <FactoryBuildings /> },
+    { path: '/civil-construction-company-chennai', element: <CivilConstruction /> },
+    { path: '/solar-panel-manufacturer-and-installer', element: <Solor /> },
+    { path: '/Institutional-building-construction', element: <InstitutionalBuilding /> },
+    { path: '/multi-level-car-parking-system-manufacturer-company-chennai', element: <Mlcp /> },
+    { path: '/tensile-fabric-roofing', element: <Tensile /> },
+    { path: '/manufacturing', element: <Manufacturing /> },
+
+    // { path: '/mep-consultant-chennai', element: <MEP /> },
+    // { path: '/architectural-design-detailing-drafting-chennai', element: <DesignService /> },
+    // { path: '/space-frame-structure-building', element: <SpaceFrameStructure /> },
+
+  
+    // Blog, Media, Info
+    { path: '/blog', element: <Blog /> },
+    { path: '/gallery', element: <ProjectGallery /> },
+    { path: '/videos', element: <ProjectVideos /> },
+    { path: '/infographics', element: <Infographics /> },
+  
+    // Contact
+    { path: '/contact-us', element: <Contact /> },
+  
+    // Optional Events (commented)
+    // { path: '/chennai-events', element: <ChennaiEvents /> },
+    // { path: '/madurai-events', element: <MaduraiEvents /> },
+    // { path: '/office-celebration', element: <OfficeCelibrations /> },
+  ];
+  
+  
+
   return (
     <ScrollProvider>
       <HelmetProvider>
@@ -91,82 +135,15 @@ const App = () => {
           <Suspense fallback={<SkeletonLoader />}>
             <Routes>
               <Route element={<MainLayout />}>
-                <Route path="/" element={<Home />} />
-                <Route path="/about-us" element={<About />} />
-
-                <Route
-                  path="/pre-engineered-building-manufacturer-company-chennai"
-                  element={<Peb />}
-                />
-                <Route
-                  path="/multi-storey-building-manufacturer"
-                  element={<MultistorySteelBuilding />}
-                />
-                {/* <Route
-                  path="/space-frame-structure-building"
-                  element={<SpaceFrameStructure />}
-                /> */}
-                <Route
-                  path="/warehouse-shed-manufacturer-chennai"
-                  element={<WarehouseShed />}
-                />
-                <Route
-                  path="/peb-industrial-shed-supplier"
-                  element={<IndustrialShed />}
-                />
-                <Route
-                  path="/factory-building-manufacturer"
-                  element={<FactoryBuildings />}
-                />
-                <Route
-                  path="/institutional-building"
-                  element={<InstitutionalBuilding />}
-                />
-                <Route
-                  path="/civil-construction-company-chennai"
-                  element={<CivilConstruction />}
-                />
-
-
-                {/* <Route path="/mep-consultant-chennai" element={<Mep />} />
-                <Route
-                  path="/architectural-design-detailing-drafting-chennai"
-                  element={<DesignServices />}
-                />
-                <Route
-                  path="/multi-level-car-parking-system-manufacturer-company-chennai"
-                  element={<Mlcp />}
-                />
-                <Route path="solar-power-plant" element={<Solor />} /> 
-                
-                <Route
-                  path="/pressure-parts-equipment-accessories"
-                  element={<PressurePart />}
-                />
-                <Route
-                  path="/non-pressure-parts-equipment-accessories"
-                  element={<NonPressurePart />}
-                />
-                <Route
-                  path="/storage-parts-equipment-accessories"
-                  element={<StorageUnit />}
-                /> */}
-
-                <Route path="/manufacturing" element={<Manufacturing />} />
-
-
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/gallery" element={<ProjectGallery />} />
-                <Route path="/videos" element={<ProjectVideos />} />
-                <Route path="/infographics" element={<Infographics />} />
-
-                {/* <Route path="/chennai-events" element={<ChennaiEvents />} />
-                <Route path="/madurai-events" element={<MaduraiEvents />} />
-                <Route path="/office-celebration" element={<OfficeCelibrations />} /> */}
-
-                <Route path="/contact-us" element={<Contact />} />
-                {/* <Route path="/career" element={<Careers />} /> */}
-                {/* <Route path="/privacy-policy" element={<PrivacyPolicy />} /> */}
+                {
+                  routes.map((route, index) => (
+                    <Route
+                      key={index}
+                      path={route.path}
+                      element={route.element}
+                    />
+                  ))
+                }
               </Route>
               <Route element={<NoNavbarLayout />}>
                 <Route path="*" element={<NotFound />} />

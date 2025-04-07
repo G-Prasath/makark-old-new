@@ -6,17 +6,14 @@ const ContactAddress = () => {
     {
       img: "/Contact/chennai.png",
       title: "Chennai",
-      disc: "No. 23, 1st Floor, 1st Street, Anna Nagar, Ashok piller, chennai - 600040",
     },
     {
       img: "/Contact/clock.png",
-      title: "Thirunalveli",
-      disc: "No. 23, 1st Floor, 1st Street, Anna Nagar, Ashok piller, chennai - 600040",
+      title: "Bangalore",
     },
     {
       img: "/Contact/madurai.png",
       title: "Madurai",
-      disc: "No. 23, 1st Floor, 1st Street, Anna Nagar, Ashok piller, chennai - 600040",
     },
   ];
   return (

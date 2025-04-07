@@ -18,10 +18,6 @@ export const NavbarLinks = [
         label: "Multi-Storey Steel Building",
         url: "/multi-storey-building-manufacturer",
       },
-      // {
-      //   label: "Space Frame Structure",
-      //   url: "/space-frame-structure-building",
-      // },
       {
         label: "Warehouse Shed",
         url: "/warehouse-shed-manufacturer-chennai",
@@ -35,13 +31,29 @@ export const NavbarLinks = [
         url: "/factory-building-manufacturer",
       },
       {
-        label: "Institutional building",
-        url: "/institutional-building",
+        label: "Institutional Building",
+        url: "/Institutional-building-construction",
       },
       {
         label: "Civil Construction",
         url: "/civil-construction-company-chennai",
       },
+      {
+        label: "Multi Level Car Parking System",
+        url: "/multi-level-car-parking-system-manufacturer-company-chennai",
+      },
+      {
+        label: "Solar",
+        url: "/solar-panel-manufacturer-and-installer",
+      },
+      {
+        label: "Tensile Structure",
+        url: "/tensile-fabric-roofing",
+      },
+      // {
+      //   label: "Space Frame Structure",
+      //   url: "/space-frame-structure-building",
+      // },
       // {
       //   label: "MEP",
       //   url: "/mep-consultant-chennai",
@@ -50,16 +62,9 @@ export const NavbarLinks = [
       //   label: "Design Services",
       //   url: "/architectural-design-detailing-drafting-chennai",
       // },
-      // {
-      //   label: "Multi Level Car Parking System",
-      //   url: "/multi-level-car-parking-system-manufacturer-company-chennai",
-      // },
-      // {
-      //   label: "Solor",
-      //   url: "/solar-power-plant",
-      // }
-    ],
+    ]
   },
+  
   // {
   //   label: "Equipment",
   //   submenu: [
@@ -78,28 +83,27 @@ export const NavbarLinks = [
   //   ],
   // },
   {
-    label : "Events",
-    submenu : [
-        {
-            label: "Chennai Events",
-            // url : "/chennai-events"
-        },
-        {
-            label: "Madurai Events",
-            // url : "/madurai-events"
-        },
-        {
-            label: "Office Events",
-            // url : "/office-celebration"
-        }
-    ]
+    label: "Events",
+    submenu: [
+      {
+        label: "Chennai Events",
+        // url : "/chennai-events"
+      },
+      {
+        label: "Madurai Events",
+        // url : "/madurai-events"
+      },
+      {
+        label: "Office Events",
+        // url : "/office-celebration"
+      },
+    ],
   },
   {
     label: "Contact Us",
     url: "/contact-us",
-  }
+  },
 ];
-
 
 export const ChooseList = [
   "Pre-Engineered Building",
@@ -112,5 +116,5 @@ export const ChooseList = [
   "Civil Construction",
   "MEP",
   "Design Services",
-  "Multi Level Car Parking System"
+  "Multi Level Car Parking System",
 ];

@@ -1285,6 +1285,503 @@ export const InstiutitonBuildingsData = {
 };
 
 
+export const TensileData = {
+  banner: {
+    heading: "Tensile Fabric Roofing",
+    imageSrc: "/About/Banner.webp",
+  },
+  profile: {
+    heading: "Tensile Fabric Roofing",
+    para: [
+      "Mekark specializes in tensile fabric roofing, producing durable, lightweight structures that are visually striking and stimulating to modern architecture. Incorporating high-performance materials like PTFE and ETFE foil and PVC-coated polyester fabric itself, these are designed for durable performance, requiring minimum maintenance.",
+      "The extended lifespan of 25-50 years of tensile roofs provides various benefits, including flexibility, economy, and the best weather resistance. The facades made from architectural membranes are UV-resistant, while the synthetic load-generating strength results from our materials."
+    ],
+    img: "/About/Banner.webp",
+  },
+
+  benifites: [
+    "Tensile fabric roofs have provided more opportunities for reduction in structural loading, facilitating the speedy construction process and allowing a lighter foundation. Due to its lightweight characteristics, design opportunities are enhanced without compromising structural performance. ",
+    "The tensile fabric roofs resist extreme weather and ultraviolet light as well as corrosion by way of durable materials like PTFE, ETFE, and a PVC-coated polyester. Their sturdy construction means that these roofs last for years with just a minimum of maintenance required.",
+    "The reflective architectural membranes will temper heat absorption in order to drive down cooling costs and keep people warm and comfortable inside. Some translucent fabrics enable the adoption of natural daylighting, thus reducing the need for artificial lights and improving energy efficiency as a whole.",
+    "Providing neither column nor obstruction, tensile fabric roofs give an unbroken cover over stadiums, auditoriums, and other commercial buildings. This extended reach increases usability while fully preserving structural integrity and architectural grace.",
+    "Tensile fabric structures offer unlimited shape, size, and color customization. The versatility enables distinctive proposals and visually striking designs, enhancing aesthetics while offering functional and efficient roofing solutions.",
+  ],
+
+  whychooseData: [
+    {
+      iconPath:
+        "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
+      title: "Feature Name 1",
+      subtitle:
+        "PTFE, ETFE, and PVC-coated polyester fabric, which gives durability, weather resistance, and longevity.",
+    },
+    {
+      iconPath:
+        "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
+      title: "Feature Name 2",
+      subtitle:
+        "Custom-designed tensile fabric for unique shapes and colors and specific design needs for aesthetics as well as functionality.",
+    },
+    {
+      iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
+      title: "Feature Name 3",
+      subtitle:
+        "Lightweight design enables tensile fabric to be installed faster and reduces downtime for efficient project execution.",
+    },
+    {
+      iconPath:
+        "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
+      title: "Feature Name 4",
+      subtitle:
+        "Fast installation, less material use, and less structural support required make tensile fabric roofing cost competitive.",
+    },
+    {
+      iconPath:
+        "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
+      title: "Feature Name 2",
+      subtitle:
+        "From walkways and parking to facades and auditoriums, our team handles projects of every size with precision.",
+    },
+    {
+      iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
+      title: "Feature Name 3",
+      subtitle:
+        "Our tensile structures meet all safety and fire-resistance standards, offering worry-free performance.",
+    },
+    {
+      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+    },
+  ],
+  Applications: [
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Food Court",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Auditorium Tensile Structure",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Tensile Car Parking Structure",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Walkway Covering",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Shopping Malls",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Restaurants",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Gazebo",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Airport",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Kids Play Area",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Entrances",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Sitout Area",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Resort",
+    },
+  ],
+  Faqs: [
+    {
+      question: "Will it require regular maintenance?",
+      answer:
+        "Not much maintenance is involved besides some regular cleaning and inspection to ensure lifetime sustainability.",
+    },
+    {
+      question: "Is it suitable for all climates?",
+      answer:
+        "Yes, These structures can withstand all-weather like rain, wind, or exposure to UV.",
+    },
+    {
+      question: "Can it be customized?",
+      answer:
+        "Absolutely! Fabric tensile structures can be designed according to any unique shape, size, or color in accordance with the architectural style.",
+    },
+    {
+      question: "How long does a tensile structure last?",
+      answer:
+        "With quality materials and proper care, tensile structures can last 15 to 30 years depending on the fabric used and environmental conditions.",
+    },
+    {
+      question: "Can tensile structures be installed quickly?",
+      answer:
+        "Yes, their lightweight components and modular design allow for faster installation compared to traditional roofing.",
+    },
+  ],
+  gallery: [
+    {
+      original: "/Peb/Gallery 1.webp",
+      thumbnail: "/Peb/Gallery 1.webp",
+    },
+    {
+      original: "/Peb/Gallery 2.webp",
+      thumbnail: "/Peb/Gallery 2.webp",
+    },
+    {
+      original: "/Peb/Gallery 3.webp",
+      thumbnail: "/Peb/Gallery 3.webp",
+    },
+    {
+      original: "/Peb/Gallery 4.webp",
+      thumbnail: "/Peb/Gallery 4.webp",
+    },
+    {
+      original: "/Peb/Gallery 5.webp",
+      thumbnail: "/Peb/Gallery 5.webp",
+    },
+    {
+      original: "/Peb/Gallery 6.webp",
+      thumbnail: "/Peb/Gallery 6.webp",
+    },
+    {
+      original: "/Peb/Gallery 7.webp",
+      thumbnail: "/Peb/Gallery 7.webp",
+    },
+    {
+      original: "/Peb/Gallery 8.webp",
+      thumbnail: "/Peb/Gallery 8.webp",
+    },
+    {
+      original: "/Peb/Gallery 9.webp",
+      thumbnail: "/Peb/Gallery 9.webp",
+    },
+  ],
+};
+
+
+export const SolorData = {
+  banner: {
+    heading: "Solar Panels",
+    imageSrc: "/About/Banner.webp",
+  },
+  profile: {
+    heading: "Solar Panels for Warehouses & Factories",
+    para: [
+      "Warehouses and Factories can use solar panels as a relatively affordable and reliable solution for energy optimization. In India, up to 20% of the electricity usage of warehouses and factories can be met by rooftop solar installations and for very diesel-intensive warehouses. Solar can reduce diesel consumption by as much as 15% depending on the load-shedding schedule. With 100 square feet of unshaded roof space providing the average of 4 kWh/day, warehouses & Factories will use large and often underutilized rooftop spaces efficiently for clean energy generation. In addition to the energy security during power cuts, the costs are far lower compared to diesel operation, with minimal maintenance.",
+      "However, these factors include type and space of the roof that intermittency brought about by cloud cover that covers solar power. They seem to have high refrigeration or lighting loads during the day or they are found in areas that have less availability of grids hence they can utilize grid-interactive systems or hybrid solar systems that connect with diesel generators to reduce dependence on fossil fuels.",
+      "For expert solar panel installation services tailored to warehouses and factories, contact us today! Our team specializes in providing cost-effective, energy-efficient solutions that help reduce your electricity bills and carbon footprint. Whether you're looking to optimize large rooftop spaces or integrate solar with existing power systems, we ensure seamless installation, reliable performance, and long-term savings. Get in touch with us to discuss your energy needs, and let us design a solar solution that works best for your business!",
+      "If you are in need of professional and customized warehouse and factory solar panel installation, Contact us now! Whether you want to cover several vast terraces, or connect solar with the current power equipment, we guarantee well-installed, efficient, and cost-effective performance. Call us today and let’s begin to plan out the best energy solution for your business using the solar system."
+    ],
+    img: "/About/Banner.webp",
+  },
+  benifites: [
+    "Reduces energy bills and has other sustainability advantages for the long-term financial performance of the enterprise.",
+    "Offers protection from volatility in electricity price and instability in the market to businesses.",
+    "Provides a source of clean, renewable energy that also reduces an organization’s carbon emissions.",
+    "Updates the property's exterior and interior improving its value in case buyers or tenants are to be targeted.",
+    "Increased availability and utilization of tax credits and rebates pertaining to investment on solar systems, hence enhanced return on investment policy.",
+    "Integrates roof space to get optimum efficiency of solar energy, enhances working capacity."
+  ],
+  
+  whychooseData: [
+    {
+      iconPath:
+        "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
+      title: "Feature Name 1",
+      subtitle:
+        "Mekark designs solar panel systems specifically for large industrial and warehouse roofs, ensuring optimal space utilization and energy output.",
+    },
+    {
+      iconPath:
+        "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
+      title: "Feature Name 2",
+      subtitle:
+        "From site survey, system design to installation and maintenance—Mekark takes care of everything under one roof.",
+    },
+    {
+      iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
+      title: "Feature Name 3",
+      subtitle:
+        "Proven track record of handling solar projects for manufacturing units, logistics companies, and warehouses.",
+    },
+    {
+      iconPath:
+        "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
+      title: "Feature Name 4",
+      subtitle:
+        "With deep experience in pre-engineered and steel buildings, Mekark ensures your solar system is installed safely without compromising the structure.",
+    },
+    {
+      iconPath:
+        "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
+      title: "Feature Name 2",
+      subtitle:
+        "Mekark’s professional team ensures fast, safe, and clean installation, keeping your factory or warehouse operations uninterrupted.",
+    },
+    {
+      iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
+      title: "Feature Name 3",
+      subtitle:
+        "Only premium solar panels and inverters are used, backed by strong warranties and after-sales support for peace of mind.",
+    },
+    {
+      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+    },
+  ],
+  Applications: [
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Commercial",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Industrial",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Institutional",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Empty Lands",
+    }
+  ],
+  Faqs: [
+    {
+      question: "How long does a solar panel last?",
+      answer:
+        "Current and advanced solar panels tend to have a life expectancy of 25-30 years and most manufacturers provide warranties regarding efficiency in that time frame.",
+    },
+    {
+      question: "How do I know that my warehouse environment is right for solar panel?",
+      answer:
+        "A solar assessment can look at the incline and azimuth of a roof, the area that is available for solar panels, if there is any shading and if the roof structure is strong enough to take the weight of solar panels.",
+    },
+    {
+      question: "What is the cost of fitting roof top  solar panels?",
+      answer:
+        "Installation cost may also differ depending on size of the system, area to be covered & its specific need. Getting quotations from several contractors is desirable to avoid being given a high bid.",
+    },
+    {
+      question: "How do I track the solar panels performance?",
+      answer:
+        "Most solar systems are accompanied by a monitoring software or an application that lets you view the amount of energy being generated, or system efficiency in real time.",
+    },
+    {
+      question: "How do solar panels work?",
+      answer:
+        "Solar panels change light from the sun into electricity that can be used in your warehouse.",
+    },
+  ],
+  gallery: [
+    {
+      original: "/Peb/Gallery 1.webp",
+      thumbnail: "/Peb/Gallery 1.webp",
+    },
+    {
+      original: "/Peb/Gallery 2.webp",
+      thumbnail: "/Peb/Gallery 2.webp",
+    },
+    {
+      original: "/Peb/Gallery 3.webp",
+      thumbnail: "/Peb/Gallery 3.webp",
+    },
+    {
+      original: "/Peb/Gallery 4.webp",
+      thumbnail: "/Peb/Gallery 4.webp",
+    },
+    {
+      original: "/Peb/Gallery 5.webp",
+      thumbnail: "/Peb/Gallery 5.webp",
+    },
+    {
+      original: "/Peb/Gallery 6.webp",
+      thumbnail: "/Peb/Gallery 6.webp",
+    },
+    {
+      original: "/Peb/Gallery 7.webp",
+      thumbnail: "/Peb/Gallery 7.webp",
+    },
+    {
+      original: "/Peb/Gallery 8.webp",
+      thumbnail: "/Peb/Gallery 8.webp",
+    },
+    {
+      original: "/Peb/Gallery 9.webp",
+      thumbnail: "/Peb/Gallery 9.webp",
+    },
+  ],
+};
+
+
+export const MLCPData = {
+  banner: {
+    heading: "Multi Level Car Parking",
+    imageSrc: "/About/Banner.webp",
+  },
+  profile: {
+    heading: "Multi Level Car Parking System",
+    para: [
+      "In our country, most of the people migrate from rural area to urban area. Due to the emerging modern world, the car become important for day-to-day transportation hence in our country there is less ground space parking area than number of cars used by our vast population. Besides the problem of space for cars moving on the road, greater is the problem of space for a parked vehicle considering that private vehicles remain parked for most of their time. Multi-level Parking systems is the best space saving parking solution and relief in all major cities in India.",
+      "A multi-level car parking system is a type of car parking facility that utilizes vertical space to accommodate a large number of vehicles within a limited area. This system consists of multiple levels of parking spaces stacked on top of each other, which can be accessed using ramps or elevators. The design of a multi-level car parking system can vary depending on the available space and requirements, but generally, it involves a steel or concrete structure that supports the weight of the vehicles and provides safety features such as fire protection, ventilation and security systems."
+    
+    ],
+    img: "/About/Banner.webp",
+  },
+
+  benifites: [
+    "Multi-level car parking maximizes vehicle capacity within a limited footprint, making it ideal for crowded urban areas where land is expensive.",
+    "It reduces on-site traffic congestion by offering organized parking zones, improving vehicle movement and overall space efficiency.",
+    "These structures enhance safety with designated lanes, clear markings, and surveillance systems, ensuring a secure environment for both vehicles and users.",
+    "The systematic layout allows for quicker parking and easy vehicle retrieval, saving time during peak hours and reducing driver frustration.",
+    "Multi-level systems can be integrated with smart parking technologies, allowing automated ticketing, real-time space tracking, and reduced manpower.",
+    "Vehicles remain protected from harsh weather conditions like sun, rain, and dust, helping preserve their exterior and ensuring user comfort.",
+  ],
+  whychooseData: [
+    {
+      iconPath:
+        "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
+      title: "Feature Name 1",
+      subtitle:
+        "We specialize in designing multi-level car parking systems that are space-efficient, structurally sound, and user-friendly.",
+    },
+    {
+      iconPath:
+        "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
+      title: "Feature Name 2",
+      subtitle:
+        "Each parking structure is tailored to meet the site conditions, vehicle flow, and capacity requirements of your project.",
+    },
+    {
+      iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
+      title: "Feature Name 3",
+      subtitle:
+        "With efficient planning and modular construction methods, we ensure timely project completion with minimal disruption.",
+    },
+    {
+      iconPath:
+        "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
+      title: "Feature Name 4",
+      subtitle:
+        "From concept design to final handover, we manage every aspect of the project with precision and accountability.",
+    },
+    {
+      iconPath:
+        "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
+      title: "Feature Name 2",
+      subtitle:
+        "We use durable, weather-resistant materials to ensure long-lasting performance and reduced maintenance.",
+    },
+    {
+      iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
+      title: "Feature Name 3",
+      subtitle:
+        "Our solutions are compatible with advanced parking systems like automation, sensors, and real-time monitoring for better management.",
+    },
+    {
+      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+    },
+  ],
+  Applications: [
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Hospitals",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Hotels",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "IT Park",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Tourism Sector",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Sports Stadium",
+    }
+  ],
+  Faqs: [
+    {
+      question: "What is a multi-level car parking system?",
+      answer:
+        "A multi-level car parking system is a vertical parking system that allows for multiple vehicles to be parked in a single location, usually in a compact space.",
+    },
+    {
+      question: "What types of multi-level car parking systems does Mekark manufacture?",
+      answer:
+        "Mekark manufactures a range of multi-level car parking systems, including stack parking systems, puzzle parking systems, tower parking systems, and automated parking systems.",
+    },
+    {
+      question: "What are the benefits of using a multi-level car parking system?",
+      answer:
+        "Multi-level car parking systems offer several benefits, including increased parking capacity, improved space utilization, reduced land usage, enhanced security, and faster retrieval times.",
+    },
+    {
+      question: "Can Mekark customize their multi-level car parking systems to fit specific requirements?",
+      answer:
+        "Yes, Mekark can customize their multi-level car parking systems to fit specific requirements, including space limitations, budget constraints, and aesthetic preferences..",
+    },
+    {
+      question: "Does Mekark provide installation and maintenance services for their multi-level car parking systems?",
+      answer:
+        "Yes, Mekark provides installation and maintenance services for their multi-level car parking systems, ensuring that they are installed correctly and operate efficiently throughout their lifespan.",
+    },
+  ],
+  gallery: [
+    {
+      original: "/Peb/Gallery 1.webp",
+      thumbnail: "/Peb/Gallery 1.webp",
+    },
+    {
+      original: "/Peb/Gallery 2.webp",
+      thumbnail: "/Peb/Gallery 2.webp",
+    },
+    {
+      original: "/Peb/Gallery 3.webp",
+      thumbnail: "/Peb/Gallery 3.webp",
+    },
+    {
+      original: "/Peb/Gallery 4.webp",
+      thumbnail: "/Peb/Gallery 4.webp",
+    },
+    {
+      original: "/Peb/Gallery 5.webp",
+      thumbnail: "/Peb/Gallery 5.webp",
+    },
+    {
+      original: "/Peb/Gallery 6.webp",
+      thumbnail: "/Peb/Gallery 6.webp",
+    },
+    {
+      original: "/Peb/Gallery 7.webp",
+      thumbnail: "/Peb/Gallery 7.webp",
+    },
+    {
+      original: "/Peb/Gallery 8.webp",
+      thumbnail: "/Peb/Gallery 8.webp",
+    },
+    {
+      original: "/Peb/Gallery 9.webp",
+      thumbnail: "/Peb/Gallery 9.webp",
+    },
+  ],
+};
+
 
 
 
@@ -1639,352 +2136,5 @@ export const InstiutitonBuildingsData = {
 //   ],
 // };
 
-// export const MLCPData = {
-//   banner: {
-//     heading: "Multistorey Steel Building",
-//     imageSrc: "/About/Banner.webp",
-//   },
-//   profile: {
-//     heading: "Before they sold out readymade gluten",
-//     para: "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quia repellat quas laborum perspiciatis ullam alias vitae eaque? Sit eius necessitatibus praesentium perspiciatis harum a voluptatem vel quia repellendus quos consequuntur porro veniam asperiores veritatis, quasi neque, architecto maiores corrupti, reprehenderit quas et tempora sapiente officiis. Aliquam, suscipit harum totam reprehenderit sunt nulla illum. Aut quis, nihil nam repudiandae nesciunt unde. Iure impedit, odit praesentium sint quae suscipit esse voluptatum error. Inventore cum quos aut quas. Magni, doloremque. Repudiandae quisquam nesciunt ullam temporibus distinctio ipsa atque accusamus, tempora neque a velit reprehenderit, voluptatibus culpa illo esse doloremque similique soluta adipisci.",
-//     img: "/About/Banner.webp",
-//   },
-//   diffrencesData: {
-//     lSide: [
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//     ],
-//     rSide: [
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//     ],
-//   },
-//   benifites: [
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni quis in impedit numquam dolorum ea esse placeat modi rerum!",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni quis in impedit numquam dolorum ea esse placeat modi rerum!",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//   ],
-//   advantages: [
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//   ],
-//   whychooseData: [
-//     {
-//       iconPath:
-//         "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
-//       title: "Feature Name 1",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
-//       title: "Feature Name 2",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
-//       title: "Feature Name 3",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
-//       title: "Feature Name 4",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
-//       title: "Feature Name 2",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
-//       title: "Feature Name 3",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
-//     },
-//   ],
-//   Applications: [
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App one",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App two",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App three",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App four",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App five",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App six",
-//     },
-//   ],
-//   Faqs: [
-//     {
-//       question: "How many team members can I invite?",
-//       answer:
-//         "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
-//     },
-//     {
-//       question: "What is the maximum file upload size?",
-//       answer:
-//         "No more than 2GB. All files in your account must fit your allotted storage space.",
-//     },
-//     {
-//       question: "How do I reset my password?",
-//       answer:
-//         "Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.",
-//     },
-//     {
-//       question: "Can I cancel my subscription?",
-//       answer:
-//         "Yes! Send us a message and we’ll process your request no questions asked.",
-//     },
-//     {
-//       question: "Do you provide additional support?",
-//       answer:
-//         "Chat and email support is available 24/7. Phone lines are open during normal business hours.",
-//     },
-//   ],
-//   gallery: [
-//     {
-//       original: "/Peb/Gallery 1.webp",
-//       thumbnail: "/Peb/Gallery 1.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 2.webp",
-//       thumbnail: "/Peb/Gallery 2.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 3.webp",
-//       thumbnail: "/Peb/Gallery 3.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 4.webp",
-//       thumbnail: "/Peb/Gallery 4.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 5.webp",
-//       thumbnail: "/Peb/Gallery 5.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 6.webp",
-//       thumbnail: "/Peb/Gallery 6.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 7.webp",
-//       thumbnail: "/Peb/Gallery 7.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 8.webp",
-//       thumbnail: "/Peb/Gallery 8.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 9.webp",
-//       thumbnail: "/Peb/Gallery 9.webp",
-//     },
-//   ],
-// };
 
-// export const SolorData = {
-//   banner: {
-//     heading: "Multistorey Steel Building",
-//     imageSrc: "/About/Banner.webp",
-//   },
-//   profile: {
-//     heading: "Before they sold out readymade gluten",
-//     para: "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quia repellat quas laborum perspiciatis ullam alias vitae eaque? Sit eius necessitatibus praesentium perspiciatis harum a voluptatem vel quia repellendus quos consequuntur porro veniam asperiores veritatis, quasi neque, architecto maiores corrupti, reprehenderit quas et tempora sapiente officiis. Aliquam, suscipit harum totam reprehenderit sunt nulla illum. Aut quis, nihil nam repudiandae nesciunt unde. Iure impedit, odit praesentium sint quae suscipit esse voluptatum error. Inventore cum quos aut quas. Magni, doloremque. Repudiandae quisquam nesciunt ullam temporibus distinctio ipsa atque accusamus, tempora neque a velit reprehenderit, voluptatibus culpa illo esse doloremque similique soluta adipisci.",
-//     img: "/About/Banner.webp",
-//   },
-//   diffrencesData: {
-//     lSide: [
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//     ],
-//     rSide: [
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//     ],
-//   },
-//   benifites: [
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni quis in impedit numquam dolorum ea esse placeat modi rerum!",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni quis in impedit numquam dolorum ea esse placeat modi rerum!",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//   ],
-//   advantages: [
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//   ],
-//   whychooseData: [
-//     {
-//       iconPath:
-//         "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
-//       title: "Feature Name 1",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
-//       title: "Feature Name 2",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
-//       title: "Feature Name 3",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
-//       title: "Feature Name 4",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
-//       title: "Feature Name 2",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
-//       title: "Feature Name 3",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
-//     },
-//   ],
-//   Applications: [
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App one",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App two",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App three",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App four",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App five",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App six",
-//     },
-//   ],
-//   Faqs: [
-//     {
-//       question: "How many team members can I invite?",
-//       answer:
-//         "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
-//     },
-//     {
-//       question: "What is the maximum file upload size?",
-//       answer:
-//         "No more than 2GB. All files in your account must fit your allotted storage space.",
-//     },
-//     {
-//       question: "How do I reset my password?",
-//       answer:
-//         "Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.",
-//     },
-//     {
-//       question: "Can I cancel my subscription?",
-//       answer:
-//         "Yes! Send us a message and we’ll process your request no questions asked.",
-//     },
-//     {
-//       question: "Do you provide additional support?",
-//       answer:
-//         "Chat and email support is available 24/7. Phone lines are open during normal business hours.",
-//     },
-//   ],
-//   gallery: [
-//     {
-//       original: "/Peb/Gallery 1.webp",
-//       thumbnail: "/Peb/Gallery 1.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 2.webp",
-//       thumbnail: "/Peb/Gallery 2.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 3.webp",
-//       thumbnail: "/Peb/Gallery 3.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 4.webp",
-//       thumbnail: "/Peb/Gallery 4.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 5.webp",
-//       thumbnail: "/Peb/Gallery 5.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 6.webp",
-//       thumbnail: "/Peb/Gallery 6.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 7.webp",
-//       thumbnail: "/Peb/Gallery 7.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 8.webp",
-//       thumbnail: "/Peb/Gallery 8.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 9.webp",
-//       thumbnail: "/Peb/Gallery 9.webp",
-//     },
-//   ],
-// };
+

@@ -26,12 +26,11 @@ const WhyChoose = () => {
                   </span>
                 </div>
                 <div className="y-us-content ml-4">
-                  <h4 className="text-gray-800 text-lg uppercase mb-1">
-                    Safety First
-                  </h4>
+                  <p className="text-gray-800 text-lg uppercase mb-1">
+                  Construction time
+                  </p>
                   <p className="text-gray-600 text-sm font-light">
-                    Globally incubate standards compliant channels before
-                    scalable benefits. Quickly disseminate superior del
+                  PEB reduces the total construction cost by the least 40% which leads to faster occupancy and early revenue.
                   </p>
                 </div>
               </div>
@@ -42,12 +41,11 @@ const WhyChoose = () => {
                   </span>
                 </div>
                 <div className="y-us-content ml-4">
-                  <h4 className="text-gray-800 text-lg uppercase mb-1">
-                    Clean Surface
-                  </h4>
+                  <p className="text-gray-800 text-lg uppercase mb-1">
+                  Lower cost
+                  </p>
                   <p className="text-gray-600 text-sm font-light">
-                    Globally incubate standards compliant channels before
-                    scalable benefits. Quickly disseminate superior del
+                  Saving is accomplished in design, manufacturing and erection cost.
                   </p>
                 </div>
               </div>
@@ -58,12 +56,11 @@ const WhyChoose = () => {
                   </span>
                 </div>
                 <div className="y-us-content ml-4">
-                  <h4 className="text-gray-800 text-lg uppercase mb-1">
-                    Professional
-                  </h4>
+                  <p className="text-gray-800 text-lg uppercase mb-1">
+                  Large clear span
+                  </p>
                   <p className="text-gray-600 text-sm font-light">
-                    Globally incubate standards compliant channels before
-                    scalable benefits. Quickly disseminate superior del
+                  In PEB the buildings can be given up to 90m clear spans which is the important advantage of PEB with column free space.
                   </p>
                 </div>
               </div>
@@ -93,12 +90,11 @@ const WhyChoose = () => {
                   </span>
                 </div>
                 <div className="y-us-content ml-4">
-                  <h4 className="text-gray-800 text-lg uppercase mb-1">
-                    Sustainability
-                  </h4>
+                  <p className="text-gray-800 text-lg uppercase mb-1">
+                  Flexibility of expansion
+                  </p>
                   <p className="text-gray-600 text-sm font-light">
-                    Globally incubate standards compliant channels before
-                    scalable benefits. Quickly disseminate superior del
+                  PEB can be easily expanded in length by adding additional bays.
                   </p>
                 </div>
               </div>
@@ -109,12 +105,11 @@ const WhyChoose = () => {
                   </span>
                 </div>
                 <div className="y-us-content ml-4">
-                  <h4 className="text-gray-800 text-lg uppercase mb-1">
-                    Modern Painting
-                  </h4>
+                  <p className="text-gray-800 text-lg uppercase mb-1">
+                  Quality control
+                  </p>
                   <p className="text-gray-600 text-sm font-light">
-                    Globally incubate standards compliant channels before
-                    scalable benefits. Quickly disseminate superior del
+                  PEB's are manufactured under controlled conditions depending on the site and hence the quality is assured.
                   </p>
                 </div>
               </div>
@@ -125,12 +120,11 @@ const WhyChoose = () => {
                   </span>
                 </div>
                 <div className="y-us-content ml-4">
-                  <h4 className="text-gray-800 text-lg uppercase mb-1">
-                    Home Decor
-                  </h4>
+                  <p className="text-gray-800 text-lg uppercase mb-1">
+                  Environment-Friendly
+                  </p>
                   <p className="text-gray-600 text-sm font-light">
-                    Globally incubate standards compliant channels before
-                    scalable benefits. Quickly disseminate superior del
+                  PEB structures generate less waste during fabrication and erection. Most components are recyclable, making them a sustainable choice for reducing environmental impact.
                   </p>
                 </div>
               </div>

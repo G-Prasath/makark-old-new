@@ -5,7 +5,7 @@ const Benifites = ({data}) => {
 
   return (
     <>
-      <Heading title={"Benifites"} secTitle={`Advantages`} />
+      <Heading title={"Benefits"} secTitle={`Advantages`} />
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10 gap-5 md:p-10 p-5">
         {data.map((item, index) => (

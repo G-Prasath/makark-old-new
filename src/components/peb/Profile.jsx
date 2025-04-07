@@ -6,7 +6,7 @@ const Profile = () => {
       <div className="">
         {/* Left content section */}
         <h1 className="mb-6 text-xl sm:text-4xl font-semibold text-center">
-          PEB <span className="text-[#e59350]">Manufactures</span>
+        How Pre-engineered building manufactured?
         </h1>
         <div
           className="w-full md:h-[70vh] aspect-square bg-cover bg-center"
@@ -22,31 +22,15 @@ const Profile = () => {
         <div className="w-full p-3 sm:p-5">
           <div className="sm:p-5">
             <p className="text-gray-600 my-3 leading-relaxed text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              repellat iure laboriosam cum voluptatum, nam minima deserunt aut?
-              Distinctio voluptatibus dolor quaerat quo omnis illo sequi at
-              velit, odit quod! Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Fugiat, beatae sunt obcaecati dignissimos autem
-              quas iusto omnis expedita facere. Molestias deserunt, similique
-              sit exercitationem omnis ullam sint rerum repellendus quibusdam.
-              Delectus voluptates consectetur quam. Praesentium facilis odio
-              ratione? Nam iste necessitatibus facilis. Sit fugiat ratione
-              exercitationem alias optio reprehenderit explicabo?
+            Pre-engineered Buildings As the name implies, it involves the pre-engineering of structural parts. PEB supplies portions that vary in length depending on the requirement. These are steel-framed factories that are welded together on-site. It can easily be enlarged later by simply adding bays. Its high-quality painting system ensures extended durability and little maintenance. PEBs are typically used for industrial, commercial, and institutional buildings, such as warehouses, factories, schools, and retail buildings. PEBs are typically used for industrial, commercial, and institutional buildings, such as warehouses, factories, schools, and retail buildings. They can also be used for infrastructure projects such as airports, bridges, and railways.
             </p>
 
             <p className="text-gray-600 my-4 leading-relaxed text-justify">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
-              dicta necessitatibus dolorum officiis et molestias quas. Placeat
-              eius minima earum, atque laborum dolorem quam. Amet sequi qui odit
-              rerum cupiditate. Libero saepe magni eaque, blanditiis provident
-              asperiores hic laborum veritatis neque omnis praesentium et facere
-              illum, perferendis mollitia nesciunt impedit earum possimus
-              tenetur totam! Et quidem maxime, accusamus illum commodi nemo,
-              nesciunt, vero minima deserunt autem deleniti tempore? Facere
-              asperiores enim modi in. Minima exercitationem est dicta nesciunt
-              similique possimus, quis hic nam iure enim cumque amet magnam
-              repellendus consequatur eius, tempora cupiditate adipisci?
-              Accusamus magnam ratione quidem enim iste.
+            Pre-engineered buildings (PEBs) are structures that are designed, manufactured, and assembled off-site, typically in a factory, using advanced manufacturing techniques and technology. PEBs are constructed using pre-fabricated components that are assembled on-site, resulting in a faster, more efficient construction process compared to traditional construction methods.
+            </p>
+
+            <p className="text-gray-600 my-4 leading-relaxed text-justify">
+            Mekark is a leading pre-engineered buildings (PEBs) manufacturer that offers customized and cost-effective solutions for commercial, industrial, and residential structures. With over 20 years of experience, their innovative designs and use of advanced technology ensure quality and timely delivery of projects. Mekark's commitment to sustainability and customer satisfaction makes them a reliable choice for PEBs.
             </p>
           </div>
         </div>

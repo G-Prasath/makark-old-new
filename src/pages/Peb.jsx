@@ -27,7 +27,7 @@ const Peb = () => {
       <SpaceFrameTypes data={allData.listofPrimaryFrames} />
       <PebApp data={allData.Applications} />
       <WhyChoose />
-      <Acciories data={allData.Acciories} />
+      {/* <Acciories data={allData.Acciories} /> */}
       <PebGallery data={allData.Gallery} />
       <PebFAQ data={allData.Faq} />
       <PebTestimonials />

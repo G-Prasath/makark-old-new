@@ -75,7 +75,7 @@ export const Manufacturing = {
 // ---------------- PEB ---------------
 export const Peb = {
   banner: {
-    heading: "Pre Enginnered Builds",
+    heading: "Pre-engineered building",
     imageSrc: "/Peb/Banner.webp",
   },
   primaryFrames: {
@@ -156,7 +156,7 @@ export const Peb = {
     },
     {
       image: "/Peb/PEB app - instiutiton 6.webp",
-      title: "Instiutiton",
+      title: "Institution building",
     },
     {
       image: "/Peb/PEB app - Sports  Stadiums 7.webp",
@@ -164,7 +164,7 @@ export const Peb = {
     },
     {
       image: "/Peb/PEB app - Auditorium 8.webp",
-      title: "Auditorium 8",
+      title: "Auditorium",
     },
     {
       image: "/Peb/PEB app - Cold storage 9.webp",
@@ -266,29 +266,29 @@ export const Peb = {
   ],
   Faq: [
     {
-      question: "How many team members can I invite?",
+      question: "What are Pre-Engineered Buildings (PEBs)?",
       answer:
-        "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
+        "PEBs are designed and fabricated off-site using pre-engineered components, then assembled on-site. They are efficient, durable, and cost-effective.",
     },
     {
-      question: "What is the maximum file upload size?",
+      question: "What are the major advantages of PEBs?",
       answer:
-        "No more than 2GB. All files in your account must fit your allotted storage space.",
+        "The major advantages of PEBs include rapid construction, reduced cost, design flexibility, low material wastage for all types of industrial and commercial uses.",
     },
     {
-      question: "How do I reset my password?",
+      question: "How do PEBs compare to traditional construction?",
       answer:
-        "Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.",
+        "PEBs are faster to build, more cost-efficient, and environmentally friendly compared to traditional construction with better design precision and less maintenance.",
     },
     {
-      question: "Can I cancel my subscription?",
+      question: "What kind of materials will be used",
       answer:
-        "Yes! Send us a message and we’ll process your request no questions asked.",
+        "The primary component is high-grade steel, along with other materials used such as aluminum, galvanized sheets, and insulated panels.",
     },
     {
-      question: "Do you provide additional support?",
+      question: "How do PEBs get installed?",
       answer:
-        "Chat and email support is available 24/7. Phone lines are open during normal business hours.",
+        "PEBs are prefabricated off-site and then assembled on-site with bolted connections for faster installation.",
     },
   ],
 };
@@ -300,80 +300,78 @@ export const CivilCostructionData = {
     imageSrc: "/About/Banner.webp",
   },
   profile: {
-    heading: "Before they sold out readymade gluten",
-    para: "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quia repellat quas laborum perspiciatis ullam alias vitae eaque? Sit eius necessitatibus praesentium perspiciatis harum a voluptatem vel quia repellendus quos consequuntur porro veniam asperiores veritatis, quasi neque, architecto maiores corrupti, reprehenderit quas et tempora sapiente officiis. Aliquam, suscipit harum totam reprehenderit sunt nulla illum. Aut quis, nihil nam repudiandae nesciunt unde. Iure impedit, odit praesentium sint quae suscipit esse voluptatum error. Inventore cum quos aut quas. Magni, doloremque. Repudiandae quisquam nesciunt ullam temporibus distinctio ipsa atque accusamus, tempora neque a velit reprehenderit, voluptatibus culpa illo esse doloremque similique soluta adipisci.",
+    heading: "Civil Construction Services",
+    para: [
+      "Mekark Structure Pvt Ltd established in the year 2009 at Chennai. We are the leading construction        company in the market to provide the best deals and wide range of Construction Services for Residential, Commercial and Industrial. As civil construction contractors, Mekark expert Team provide top-notch services, they make use of the most recent technologies and tools. To guarantee that our clients are happy with our services, we always adhere to the most recent industry trends and standards. We can give you whatever service you require because we are that arrive in a gigantic scope of shapes and hues; it implies quick site establishment and less vitality utilization. It means deciding to focus on the standards of manageability. Endlessly recyclable, steel is the material that mirrors the objectives of the supportable turn of events. Selecting steel implies picking a more exceptional opportunity for the development of engineering. It means infusing style into the structures and the urban areas of tomorrow. Steel gives numerous points of interest to the planner for the structure of a multi-story building: large traverses are conceivable. A steel building is lighter than a conventional structure.",
+      "Mekark Construction team builds your dream house according to your needs, using the latest construction techniques and management tools, and selects the most suitable products for your dream home. When you choose us, you want the benefits of 20 years of experience in the construction industry. With our ability to meet a wide variety of needs, we have the option of dealing specifically with our valued customers."
+    ],
     img: "/About/Banner.webp",
   },
   benifites: [
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-    "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Civil construction projects follow precise planning and execution. Advanced construction techniques improve efficiency and accuracy. This minimizes delays and ensures timely project completion.",
+    "Civil construction offers cost-effective solutions for various projects. Optimized material usage reduces waste and expenses. Budget-friendly planning ensures financial efficiency.",
+    "Civil construction provides flexible design options. Structures can be customized to meet residential, commercial, and industrial needs. Adaptive designs enhance functionality and usability.",
+    "Civil construction incorporates energy-efficient solutions. Proper insulation and ventilation systems reduce energy consumption. Sustainable materials contribute to eco-friendly buildings.",
+    "Civil construction ensures low maintenance and long-term durability. High-quality finishes and protective coatings minimize repair costs. This reduces overall lifecycle expenses."
   ],
   Applications: [
     {
       imgUrl:
         "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
-      title: "Parking Lot",
+      title: "Administrative Building",
     },
     {
       imgUrl:
         "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
-      title: "Parking Lot",
+      title: "Commercial Building",
     },
     {
       imgUrl:
         "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
-      title: "Parking Lot",
+      title: "Educational Institution Building",
     },
     {
       imgUrl:
         "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
-      title: "Parking Lot",
+      title: "Hotel & Convention Centre",
     },
     {
       imgUrl:
         "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
-      title: "Parking Lot",
+      title: "Industrial Building",
     },
     {
       imgUrl:
         "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
-      title: "Parking Lot",
-    },
-    {
-      imgUrl:
-        "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
-      title: "Parking Lot",
-    },
+      title: "Residential Building",
+    }
   ],
   Process: [
     {
-      title: "A heading in euismod dolor",
+      title: "Industrial Construction",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Consequat sollicitudin in euismod dolor, nec sodales viverra.",
+        "Factories, warehouses, and production units with structural stability, large-scale execution, and compliance.",
     },
     {
-      title: "A heading in euismod dolor",
+      title: "Commercial Building",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Consequat sollicitudin in euismod dolor, nec sodales viverra.",
+        "Offices, malls, and retail spaces with efficient layouts, modern structures, and aesthetic appeal.",
     },
     {
-      title: "A heading in euismod dolor",
+      title: "Institutional Infrastructure",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Consequat sollicitudin in euismod dolor, nec sodales viverra.",
+        "Schools, hospitals, and universities focusing on safety, durability, and optimized space utilization.",
     },
     {
-      title: "A heading in euismod dolor",
+      title: "Residential Construction",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Consequat sollicitudin in euismod dolor, nec sodales viverra.",
+        "Apartments, villas, and gated communities designed with quality materials, detailed finishes, and functionality.",
     },
   ],
   TechSpc: [
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+    "The building is designed to withstand significant live and dead loads, ensuring long-term stability. Structural components like beams, columns, and foundations are engineered to resist environmental forces, including wind and seismic activity. This design approach guarantees the building's safety, durability, and ability to endure various stresses, providing a reliable structure for many years.",
+    "The construction uses high-quality materials like reinforced concrete, steel, and masonry to ensure durability. CAD technology enables precise design, while modern machinery enhances execution efficiency. These advancements contribute to a high-quality finish, fast-track construction, and improved safety throughout the entire process, ensuring the structure's longevity and strength while minimizing potential risks during building and installation.",
+    "The project integrates eco-friendly materials, recycled resources, and energy-efficient construction. Natural lighting and advanced HVAC systems enhance efficiency while reducing energy consumption. Sustainable practices minimize operational costs and waste. These initiatives ensure long-term ecological and financial benefits. The approach supports environmental responsibility and creates a cost-effective, energy-saving building that balances sustainability with economic efficiency.",
   ],
   Portfolio: [
     {
@@ -423,54 +421,59 @@ export const CivilCostructionData = {
     {
       title: "Increase sales",
       description:
-        "Consectetur pariatur irure exercitation sit amet id consectetur consectetur magna et Lorem labore qui velit. Velit sit tempor pariatur quis pariatur incididunt culpa dolor voluptate officia incididunt velit dolore.",
+        "Expertise Across Sectors: Comprehensive solutions for residential, commercial, and industrial construction.",
     },
     {
       title: "Enterprise-ready",
       description:
-        "Labore duis pariatur est exercitation laboris cupidatat amet cillum. Amet nisi ullamco.",
+        "Efficient Planning: Seamless construction planning and scheduling to save time and resources.",
     },
     {
       title: "Unlimited growth",
       description:
-        "Elit deserunt nisi esse duis cupidatat proident sit minim mollit officia pariatur incididunt in tempor.",
+        "High-Quality Standards: Focus on construction safety and quality control.",
     },
     {
       title: "Recommended by experts",
       description:
-        "Velit sit tempor pariatur quis pariatur incididunt culpa dolor voluptate officia incididunt velit dolore. ",
+        "Advanced Technology: Use of modern equipment and materials for durable results.",
     },
     {
       title: "Modern platform",
       description:
-        "Laboris elit consectetur sint nisi eu mollit proident sit magna velit adipisicing consequat amet reprehenderit.",
+        "End-to-End Services: From site preparation to project completion.",
     },
     {
       title: "Integrations",
       description:
-        "Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia consectetur.",
+        "Professional Management: Expert project and construction management to ensure smooth execution",
     },
   ],
   FAQ: [
     {
-      question: "What are the benefits of regular exercise?",
+      question: "What services does your civil construction company offer?",
       answer:
-        "Regular exercise has numerous benefits, including improved cardiovascular health, increased muscle strength and endurance, better mood and mental health, and reduced risk of chronic diseases such as diabetes and heart disease.",
+        "We provide building, residential, commercial, and industrial construction services, including project management, site preparation, and construction planning.",
     },
     {
-      question: "What is a balanced diet?",
+      question: "Do you handle both small and large projects?",
       answer:
-        "A balanced diet includes a variety of foods from all food groups, such as fruits, vegetables, whole grains, lean proteins, and healthy fats. It provides the nutrients your body needs to function optimally and maintain good health.",
+        "Yes, we handle projects of all sizes with the same commitment to quality and efficiency.",
     },
     {
-      question: "How much water should I drink per day?",
+      question: "How do you ensure construction safety and quality?",
       answer:
-        "The amount of water you need to drink per day varies depending on factors such as your age, gender, activity level, and climate. As a general guideline, aim to drink at least 8 glasses (64 ounces) of water per day, but adjust this amount based on your individual needs.",
+        "We follow strict safety protocols and implement rigorous quality control measures throughout the project lifecycle.",
     },
     {
-      question: "How can I improve my sleep quality?",
+      question: "Can you assist with construction scheduling and estimating?",
       answer:
-        "To improve your sleep quality, establish a regular sleep schedule, create a relaxing bedtime routine, ensure your sleep environment is comfortable and conducive to sleep, limit screen time before bed, avoid caffeine and heavy meals close to bedtime, and manage stress through relaxation techniques such as meditation or deep breathing exercises.",
+        "Absolutely, we provide detailed construction scheduling and cost estimation to keep projects on track and within budget.",
+    },
+    {
+      question: "Do you provide turnkey construction services?",
+      answer:
+        "Yes, we offer end-to-end solutions, from design and approvals to construction and final handover.",
     }
   ],
 };

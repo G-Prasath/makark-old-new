@@ -57,43 +57,25 @@ const Testimonials = () => {
               <div
                 className={`${testimonialActive === 1 ? "block" : "hidden"}`}
               >
-                <p className="text-gray-600 serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit, sed do eiusmoda
-                  dipiscing elit, sed do eiusmodLorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmoda dipiscing elit,
-                  sed do eiusmod
+                <p className="text-gray-600 text-justify serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-xl">
+                Due to our requirement of PEB construction, we chose Mekark and the team was really good. Together they spent much time and delicate efforts in order to build the whole structure and to fulfill our requirements. They delivered it on time and to quality of work they did was exceptional. We were also happy with their professional attitude and non-problematic approach to work done. We are really pleased & glad to suggest them for having excellent services in quality PEB construction work.
                 </p>
               </div>
 
               <div
                 className={`${testimonialActive === 2 ? "block" : "hidden"}`}
               >
-                <p className="text-gray-600 serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl">
-                  Leverage agile frameworks to provide a robust synopsis for
-                  high level overviews. Iterative approaches to corporate
-                  strategy foster collaborative thinking to further the overall
-                  value proposition. Organically grow the holistic world view of
-                  disruptive innovation via workplace diversity and empowerment.Organically grow the holistic world view of
-                  disruptive innovation via workplace diversity and empowerment.
+                <p className="text-gray-600 text-justify serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-xl">
+                Selecting Mekark for our warehouse construction was a perfect decision. The team was very cautious of our specifications and came up with an area that fulfilled its purpose and had the potential for expansion. They had a clear structure, communicated with us often, and worked efficiently to meet the deadline. The final outcome was even better, and now we have a reliable space for our business. The quality of their work can actually do all the talking. All was smooth and their knowledge enhanced our experience to perform a lot better. Their professionalism and adherence to quality in their work are some of the aspects we highly appreciate.
+
                 </p>
               </div>
 
               <div
                 className={`${testimonialActive === 3 ? "block" : "hidden"}`}
               >
-                <p className="text-gray-600 serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit, sed do eiusmoda
-                  dipiscing elit, sed do eiusmodLorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmoda dipiscing elit,
-                  sed do eiusmod
+                <p className="text-gray-600 text-justify serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-xl">
+                Mekark was a pleasure to work with when constructing our factory. The team was effective and careful at tackling every facet to make sure structure was perfect for all of our needs. They provided good recommendations considering the specific ways of utilizing the space and were very willing to help answering our questions. The project remained affordable, and for that, we thank you a lot for a great job well done! 
                 </p>
               </div>
             </div>
@@ -119,25 +101,25 @@ const Testimonials = () => {
               {testimonialActive === 1 && (
                 <div className="text-center">
                   <div className="block font-semibold text-gray-900 text-lg">
-                    John Doe
+                  Manikandan
                   </div>
-                  <div className="block text-gray-700 italic">Company LLC</div>
+                  <div className="block text-gray-700 italic">Project Manager</div>
                 </div>
               )}
               {testimonialActive === 2 && (
                 <div className="text-center">
                   <div className="block font-semibold text-gray-900 text-lg">
-                    William Doe
+                  RajKumar
                   </div>
-                  <div className="block text-gray-700 italic">Business Co.</div>
+                  <div className="block text-gray-700 italic">Managing Director</div>
                 </div>
               )}
               {testimonialActive === 3 && (
                 <div className="text-center">
                   <div className="block font-semibold text-gray-900 text-lg">
-                    Jane Wilson
+                  Dhanush
                   </div>
-                  <div className="block text-gray-700 italic">Enterprises</div>
+                  <div className="block text-gray-700 italic">Architect</div>
                 </div>
               )}
             </div>

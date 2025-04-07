@@ -11,7 +11,7 @@ import {
 export const FooterData = {
   logoSrc: "/Home/logo.png",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum itaque neque.",
+    "Mekark company provides residential and commercial clients across the world with innovative and cost-effective builds.",
   socialMediaIcons: [
     {
       img: FaSquareFacebook,
@@ -19,11 +19,11 @@ export const FooterData = {
     },
     {
       img: FaInstagram,
-      url: "https://www.instagram.com/mekarkindustrial?igshid=NzZlODBkYWE4Ng%3D%3D",
+      url: "https://www.instagram.com/mekarkindustrial/",
     },
     {
       img: FaSquareXTwitter,
-      url: "https://twitter.com/MekarkPEB",
+      url: "https://x.com/MekarkPEB",
     },
     {
       img: FaSquarePinterest,
@@ -35,26 +35,27 @@ export const FooterData = {
     },
     {
       img: IoLogoLinkedin,
-      url: "https://www.linkedin.com/in/mekark-peb-856448264/",
+      url: "https://www.linkedin.com/company/mekark/posts/?fe",
     },
   ],
   sections: [
     {
       title: "About Us",
       links: [
-        { text: "Company History", url: "/" },
-        { text: "Meet the Team", url: "/" },
-        { text: "Employee Handbook", url: "/" },
+        { text: "About us", url: "/" },
+        { text: "Our Products", url: "/" },
+        { text: "Blog", url: "/" },
         { text: "Careers", url: "/career" },
+        { text: "Contact Us", url: "/contact-us" },
       ],
     },
     {
       title: "Our Services",
       links: [
-        { text: "Web Development", url: "/" },
-        { text: "Web Design", url: "/" },
-        { text: "Marketing", url: "/" },
-        { text: "Google Ads", url: "/" },
+        { text: "Pre Engineered Building", url: "/" },
+        { text: "Warehouse shed", url: "/" },
+        { text: "Industrial shed", url: "/" },
+        { text: "Factory Buildings", url: "/" },
       ],
     },
     {
@@ -68,9 +69,9 @@ export const FooterData = {
     {
       title: "Contact Us",
       contactInfo: [
-        { type: "email", value: "john@doe.com", url: "/" },
-        { type: "phone", value: "0123456789", url: "/" },
-        { type: "address", value: "213 Lane, London, United Kingdom" },
+        { type: "email", value: "Email : admin@mekark.com", url: "/" },
+        { type: "phone", value: "Phone : +91 97909 24754", url: "/" },
+        { type: "address", value: "15,62nd street, Ashok Nagar, Chennai-600083" },
       ],
     },
   ],

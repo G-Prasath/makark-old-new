@@ -5,7 +5,7 @@ import Heading from "../Common/Heading/Heading";
 const CivilTechSpec = ({ data }) => {
   return (
     <div>
-      <Heading title={`Technical Spec`} secTitle={`Specification`} />
+      <Heading title={`Construction`} secTitle={`Technical Specifications`} />
 
       <div className="max-w-screen-xl mx-auto border my-10">
         <div className="mt-3 text-gray-600 px-5">

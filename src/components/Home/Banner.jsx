@@ -14,16 +14,17 @@ const Banner = () => {
 
       <div className="absolute z-50 left-6 top-1/2 transform -translate-y-1/2 text-white uppercase tracking-wide md:left-16 bg-transparent">
 
-        <span className="block text-[clamp(1.5rem,1.3rem+0.5vw,2.25rem)] max-sm:text-md font-light mb-2" data-aos="fade-top" data-aos-duration="1500">
-          every
+        <span className="block sm:text-2xl md:text-3xl lg:text-5xl leading-loose max-sm:text-xl font-semibold mb-2" data-aos="fade-top" data-aos-duration="1500">
+          MEKARK <br/>STRUCTURES INDIA PVT LTD
         </span>
-        <h1 className="text-[clamp(2.5rem,1.7rem+3vw,8rem)] font-normal max-sm:text-md" data-aos="fade-right" data-aos-duration="1500">
-          picture
-        </h1>
-        {/* <p className="text-[clamp(1rem,1rem+0.5vw,1.7rem)] mt-[-5px] max-sm:text-md" data-aos="fade-bottom">
-          tells a story
+        {/* <p className="text-[clamp(2.5rem,1.7rem+3vw,8rem)] font-normal max-sm:text-md" data-aos="fade-right" data-aos-duration="1500">
+         
         </p> */}
-        <hr className="block w-12 border-none h-0.5 bg-[#1aad8a] mt-4" />
+        <hr className="block w-12 border-none h-0.5 bg-[#1aad8a] my-4" />
+
+        <p className="text-[clamp(1rem,1rem+0.5vw,1rem)] mt-[-5px] max-sm:text-md font-sans lowercase text-white" data-aos="fade-bottom">
+        Looking for a quality and affordable construction for your Next Project
+        </p>
       </div>
 
       <div className="w-full h-full bg-black opacity-[.4] absolute top-0 left-0 z-[9]"></div>

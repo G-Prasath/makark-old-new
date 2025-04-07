@@ -8,9 +8,9 @@ const Process = ({data}) => {
         {/* Title Section */}
         <div className="relative flex w-full flex-1 items-center lg:basis-[400px] lg:text-right">
           <div className="flex-1 lg:pr-6">
-            <h2 className="text-4xl font-bold">
-              Horizontal Tree List with Tailwind CSS
-            </h2>
+            <p className="text-4xl font-bold">
+              Comprehensive Civil Construction Solutions
+            </p>
           </div>
           <div className="top-1/2 mt-px hidden h-px w-16 bg-green-500 lg:block"></div>
         </div>

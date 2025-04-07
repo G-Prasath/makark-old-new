@@ -7,7 +7,7 @@ const CivilBenifites = ({data}) => {
     <div className="max-w-screen-xl mx-auto border mt-10">
       <div className="mb-10 p-5 bg-gray-500 text-white">
         <h3 className="font-bold uppercase text-3xl text-center">
-          Benifites Of Civil Constructions
+          Benefits Of Civil Constructions
         </h3>
       </div>
 

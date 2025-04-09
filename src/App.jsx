@@ -30,10 +30,11 @@ import Solor from "./pages/Solor";
 import Tensile from "./pages/Tensile";
 import Mlcp from "./pages/Mlcp";
 import Manufacturing from "./pages/Manufacturing";
+import SpaceFrameStructure from "./pages/SpaceFrameStructure";
 
 
 
-// import SpaceFrameStructure from "./pages/SpaceFrameStructure";
+
 // import Mep from "./pages/Mep";
 // import DesignServices from "./pages/DesignServices";
 
@@ -105,10 +106,11 @@ const App = () => {
     { path: '/multi-level-car-parking-system-manufacturer-company-chennai', element: <Mlcp /> },
     { path: '/tensile-fabric-roofing', element: <Tensile /> },
     { path: '/manufacturing', element: <Manufacturing /> },
+    { path: '/space-frame-structure-building', element: <SpaceFrameStructure /> },
+
 
     // { path: '/mep-consultant-chennai', element: <MEP /> },
     // { path: '/architectural-design-detailing-drafting-chennai', element: <DesignService /> },
-    // { path: '/space-frame-structure-building', element: <SpaceFrameStructure /> },
 
   
     // Blog, Media, Info

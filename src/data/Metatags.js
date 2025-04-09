@@ -91,12 +91,12 @@ export const MultiLevelCarParking_PageMeta = {
 
 
 
-// export const Spaceframestructures_PageMeta = {
-//     title: "Space Frame Structure Construction - Mekark",
-//     description: "Mekark is a reliable Space Frame Structure construction company with more than 15 years of experience providing innovative design, manufacture, and installation services.",
-//     keywords: "Space Frame Manufacturer, Space Frame Construction, Space Frame Structure Architecture, Space Frame Structure Building, Space Frame Company, Space Frame Roof Structure, Space Frame Roofing System, Space Frame Building, Architecture Space Frame, Space Frame Architecture",
-//     canonical: `https://`+hostname+"/"
-// };
+export const Spaceframestructures_PageMeta = {
+    title: "Space Frame Structure Construction - Mekark",
+    description: "Mekark is a reliable Space Frame Structure construction company with more than 15 years of experience providing innovative design, manufacture, and installation services.",
+    keywords: "Space Frame Manufacturer, Space Frame Construction, Space Frame Structure Architecture, Space Frame Structure Building, Space Frame Company, Space Frame Roof Structure, Space Frame Roofing System, Space Frame Building, Architecture Space Frame, Space Frame Architecture",
+    canonical: `https://`+hostname+"/"
+};
 
 
 

@@ -50,10 +50,10 @@ export const NavbarLinks = [
         label: "Tensile Structure",
         url: "/tensile-fabric-roofing",
       },
-      // {
-      //   label: "Space Frame Structure",
-      //   url: "/space-frame-structure-building",
-      // },
+      {
+        label: "Space Frame Structure",
+        url: "/space-frame-structure-building",
+      },
       // {
       //   label: "MEP",
       //   url: "/mep-consultant-chennai",

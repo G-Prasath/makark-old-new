@@ -1783,183 +1783,159 @@ export const MLCPData = {
 };
 
 
-
-
-
-// export const SpaceFrameStructureData = {
-//   banner: {
-//     heading: "Multistorey Steel Building",
-//     imageSrc: "/About/Banner.webp",
-//   },
-//   profile: {
-//     heading: "Before they sold out readymade gluten",
-//     para: "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quia repellat quas laborum perspiciatis ullam alias vitae eaque? Sit eius necessitatibus praesentium perspiciatis harum a voluptatem vel quia repellendus quos consequuntur porro veniam asperiores veritatis, quasi neque, architecto maiores corrupti, reprehenderit quas et tempora sapiente officiis. Aliquam, suscipit harum totam reprehenderit sunt nulla illum. Aut quis, nihil nam repudiandae nesciunt unde. Iure impedit, odit praesentium sint quae suscipit esse voluptatum error. Inventore cum quos aut quas. Magni, doloremque. Repudiandae quisquam nesciunt ullam temporibus distinctio ipsa atque accusamus, tempora neque a velit reprehenderit, voluptatibus culpa illo esse doloremque similique soluta adipisci.",
-//     img: "/About/Banner.webp",
-//   },
-//   diffrencesData: {
-//     lSide: [
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//     ],
-//     rSide: [
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-//       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-//     ],
-//   },
-//   benifites: [
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni quis in impedit numquam dolorum ea esse placeat modi rerum!",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni quis in impedit numquam dolorum ea esse placeat modi rerum!",
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum nobis deleniti consectetur at quisquam minima cum magnam amet fuga, nam molestias repudiandae vero, quasi laudantium neque voluptatum minus quidem.",
-//   ],
-//   advantages: [
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-//   ],
-//   whychooseData: [
-//     {
-//       iconPath:
-//         "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
-//       title: "Feature Name 1",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
-//       title: "Feature Name 2",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
-//       title: "Feature Name 3",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
-//       title: "Feature Name 4",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath:
-//         "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
-//       title: "Feature Name 2",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
-//       title: "Feature Name 3",
-//       subtitle:
-//         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
-//     },
-//     {
-//       img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
-//     },
-//   ],
-//   Applications: [
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App one",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App two",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App three",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App four",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App five",
-//     },
-//     {
-//       img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-//       name: "App six",
-//     },
-//   ],
-//   Faqs: [
-//     {
-//       question: "How many team members can I invite?",
-//       answer:
-//         "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
-//     },
-//     {
-//       question: "What is the maximum file upload size?",
-//       answer:
-//         "No more than 2GB. All files in your account must fit your allotted storage space.",
-//     },
-//     {
-//       question: "How do I reset my password?",
-//       answer:
-//         "Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.",
-//     },
-//     {
-//       question: "Can I cancel my subscription?",
-//       answer:
-//         "Yes! Send us a message and we’ll process your request no questions asked.",
-//     },
-//     {
-//       question: "Do you provide additional support?",
-//       answer:
-//         "Chat and email support is available 24/7. Phone lines are open during normal business hours.",
-//     },
-//   ],
-//   gallery: [
-//     {
-//       original: "/Peb/Gallery 1.webp",
-//       thumbnail: "/Peb/Gallery 1.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 2.webp",
-//       thumbnail: "/Peb/Gallery 2.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 3.webp",
-//       thumbnail: "/Peb/Gallery 3.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 4.webp",
-//       thumbnail: "/Peb/Gallery 4.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 5.webp",
-//       thumbnail: "/Peb/Gallery 5.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 6.webp",
-//       thumbnail: "/Peb/Gallery 6.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 7.webp",
-//       thumbnail: "/Peb/Gallery 7.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 8.webp",
-//       thumbnail: "/Peb/Gallery 8.webp",
-//     },
-//     {
-//       original: "/Peb/Gallery 9.webp",
-//       thumbnail: "/Peb/Gallery 9.webp",
-//     },
-//   ],
-// };
+export const SpaceFrameStructureData = {
+  banner: {
+    heading: "Space Frame Structure",
+    imageSrc: "/About/Banner.webp",
+  },
+  profile: {
+    heading: "Flexibility of Space Frame Structures",
+    para: [
+      "In the world of modern architecture, space frame structures have revolutionized the way we construct large-span buildings. These intricate and innovative frameworks are not only visually stunning but also offer a range of advantages that make them the go-to choice for many construction projects. At Mekark, we specialize in designing and building space frame structures that combine functionality, durability, and aesthetic appeal. With our expertise and commitment to excellence, we ensure that each space frame structure we create is a masterpiece of engineering and design.",
+    ],
+    img: "/About/Banner.webp",
+  },
+  benifites: [
+    "Space frame structures excel in spanning large distances without the need for internal support columns or walls. This feature makes them ideal for constructing vast arenas, exhibition halls, airports, and other structures.",
+    "Space frame structures are renowned for their exceptional strength and durability. The triangulated arrangement of the struts provides a robust and stable framework capable of withstanding various loads, including wind, snow, and seismic forces.",
+    "The lightweight nature of the framework reduces the number of materials needed, resulting in lower construction costs and reduced foundation requirements. Additionally, the open interior space reduces the need for artificial lighting, lowering energy consumption and operational costs.",
+    "Space frame structures promote sustainability by incorporating eco-friendly design principles. The lightweight materials used in construction reduce the overall carbon footprint and energy consumption during the building process. ",
+    "Our Mekark design of the factory building should be optimized for efficiency, with an emphasis on minimizing waste, reducing energy consumption, and maximizing workflow. An experienced architect team can help design a building that meets these criteria while still being aesthetically pleasing. ",
+    "At Mekark Company, we pride ourselves on providing our customers with exceptional quality products and outstanding customer service. We are committed to delivering glasswool panels that meet the highest standards of quality and performance."
+  ],
+  whychooseData: [
+    {
+      iconPath:
+        "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
+      title: "Feature Name 1",
+      subtitle:
+        "Mekark Steel building manufacturer boasts a team of highly skilled engineers, architects, and construction professionals who specialize in space frame structures. ",
+    },
+    {
+      iconPath:
+        "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
+      title: "Feature Name 2",
+      subtitle:
+        "At Mekark, we believe in the power of collaboration. We collaborate closely with our clients, architects, and designers to comprehend their distinctive vision and transform it into actuality.",
+    },
+    {
+      iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
+      title: "Feature Name 3",
+      subtitle:
+        "Our dedicated team leverages advanced design software and engineering techniques to create customized space frame structures that meet and exceed client expectations.",
+    },
+    {
+      iconPath:
+        "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
+      title: "Feature Name 4",
+      subtitle:
+        "Mekark Pre-Engineering building Company takes pride in its ability to complete projects within the agreed-upon timelines. We understand the importance of efficient project management.",
+    },
+    {
+      iconPath:
+        "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
+      title: "Feature Name 2",
+      subtitle:
+        "Our commitment to timely execution allows clients to plan their operations effectively and achieve their project objectives.",
+    },
+    {
+      iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
+      title: "Feature Name 3",
+      subtitle:
+        "At Mekark , customer satisfaction lies at the core of our operations. We endeavor to establish robust and enduring connections with our clientele through delivering unmatched service.",
+    },
+    {
+      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+    },
+  ],
+  Applications: [
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Airports",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Shopping malls",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Factories",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Museums",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      name: "Stadiums",
+    }
+  ],
+  Faqs: [
+    {
+      question: "What is a space frame structure?",
+      answer:
+        "A space frame is a lightweight, three-dimensional structural system made of interconnected struts. It provides strength and stability over large spans.",
+    },
+    {
+      question: "Are space frames durable?",
+      answer:
+        "Yes, space frame structures are highly durable and resistant to corrosion, weather, and heavy loads.",
+    },
+    {
+      question: "Is the installation time fast?",
+      answer:
+        "Space frames are prefabricated, allowing for quick and efficient on-site installation.",
+    },
+    {
+      question: "Can it be customized for design?",
+      answer:
+        "Absolutely! Space frames offer flexibility in shapes and designs to match architectural needs.",
+    },
+    {
+      question: "Do space frames require heavy foundations?",
+      answer:
+        "No, due to their lightweight nature, space frames often require minimal foundation work.",
+    },
+  ],
+  gallery: [
+    {
+      original: "/Peb/Gallery 1.webp",
+      thumbnail: "/Peb/Gallery 1.webp",
+    },
+    {
+      original: "/Peb/Gallery 2.webp",
+      thumbnail: "/Peb/Gallery 2.webp",
+    },
+    {
+      original: "/Peb/Gallery 3.webp",
+      thumbnail: "/Peb/Gallery 3.webp",
+    },
+    {
+      original: "/Peb/Gallery 4.webp",
+      thumbnail: "/Peb/Gallery 4.webp",
+    },
+    {
+      original: "/Peb/Gallery 5.webp",
+      thumbnail: "/Peb/Gallery 5.webp",
+    },
+    {
+      original: "/Peb/Gallery 6.webp",
+      thumbnail: "/Peb/Gallery 6.webp",
+    },
+    {
+      original: "/Peb/Gallery 7.webp",
+      thumbnail: "/Peb/Gallery 7.webp",
+    },
+    {
+      original: "/Peb/Gallery 8.webp",
+      thumbnail: "/Peb/Gallery 8.webp",
+    },
+    {
+      original: "/Peb/Gallery 9.webp",
+      thumbnail: "/Peb/Gallery 9.webp",
+    },
+  ],
+};
 
 // export const DesignServicesData = {
 //   banner: {

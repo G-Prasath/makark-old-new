@@ -33,11 +33,11 @@ const ProductCards = () => {
                 >
                   <div>
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
-                      <h2 className="text-xl font-semibold text-white">
+                      <p className="text-xl font-semibold text-white">
                         Industrial Shed
-                      </h2>
+                      </p>
                       <Link
-                        to="/"
+                        to="/peb-industrial-shed-supplier"
                         className="focus:outline-none focus:underline flex justify-end items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -75,11 +75,11 @@ const ProductCards = () => {
                 >
                   <div>
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
-                      <h2 className="text-xl font-semibold text-white">
+                      <p className="text-xl font-semibold text-white">
                         Space Frame Structure
-                      </h2>
+                      </p>
                       <Link
-                        to="/"
+                        to="/space-frame-structure-building"
                         className="focus:outline-none focus:underline flex justify-end items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -118,12 +118,12 @@ const ProductCards = () => {
               >
                 <div>
                   <div className="absolute w-full bottom-0 left-0 md:p-5 p-2 bg-black bg-opacity-70">
-                    <h2 className="text-xl font-semibold text-white">
+                    <p className="text-xl font-semibold text-white">
                       Multi-Storey Steel Building
-                    </h2>
+                    </p>
 
                     <Link
-                      to="/"
+                      to="/multi-storey-building-manufacturer"
                       className="focus:outline-none focus:underline flex justify-end items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                     >
                       <p className="pr-2 text-sm font-medium leading-none">
@@ -168,11 +168,11 @@ const ProductCards = () => {
               <div className="relative">
                 <div>
                   <div className="absolute w-full bottom-0 left-0 md:p-5 p-2 bg-black bg-opacity-60">
-                    <h2 className="text-xl font-semibold text-white">
+                    <p className="text-xl font-semibold text-white">
                       Pre-Engineered Building
-                    </h2>
+                    </p>
                     <Link
-                      to="/"
+                      to="/pre-engineered-building-manufacturer-company-chennai"
                       className="focus:outline-none focus:underline flex items-center mt-4 justify-end cursor-pointer text-white hover:text-gray-200 hover:underline"
                     >
                       <p className="pr-2 text-sm font-medium leading-none">
@@ -216,9 +216,9 @@ const ProductCards = () => {
                 >
                   <div>
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
-                      <h2 className="text-xl font-semibold text-white">
+                      <p className="text-xl font-semibold text-white">
                         Design Services
-                      </h2>
+                      </p>
                       <Link
                         to="/"
                         className="focus:outline-none focus:underline flex items-center justify-end mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
@@ -246,7 +246,7 @@ const ProductCards = () => {
                     </div>
                   </div>
                   <LazyLoadImage
-                    src="/Home/Design-service.avif"
+                    src="/Home/design-services.avif"
                     className="w-full rounded-lg"
                     alt="Design-service"
                   />
@@ -258,11 +258,11 @@ const ProductCards = () => {
                 >
                   <div>
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
-                      <h2 className="text-xl font-semibold text-white">
+                      <p className="text-xl font-semibold text-white">
                         MLCP
-                      </h2>
+                      </p>
                       <Link
-                        to="/"
+                        to="/multi-level-car-parking-system-manufacturer-company-chennai"
                         className="focus:outline-none focus:underline flex items-center justify-end mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -288,7 +288,7 @@ const ProductCards = () => {
                     </div>
                   </div>
                   <LazyLoadImage
-                    src="/Home/Industrial-Enclosures.avif"
+                    src="/Home/MLCP.avif"
                     className="w-full rounded-lg"
                     alt="Industrial-enclosures"
                   />
@@ -312,11 +312,11 @@ const ProductCards = () => {
                 >
                   <div>
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
-                      <h2 className="text-xl font-semibold text-white">
-                        Civil Construction
-                      </h2>
+                      <p className="text-xl font-semibold text-white">
+                        Factory Buildings
+                      </p>
                       <Link
-                        to="/"
+                        to="/factory-building-manufacturer"
                         className="focus:outline-none focus:underline flex justify-end items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -342,7 +342,7 @@ const ProductCards = () => {
                     </div>
                   </div>
                   <LazyLoadImage
-                    src="/Home/Civil-construction.avif"
+                    src="/Home/Factory-buildings.avif"
                     className="w-full rounded-lg"
                     alt="Civil-construction"
                   />
@@ -354,9 +354,9 @@ const ProductCards = () => {
                 >
                   <div>
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
-                      <h2 className="text-xl font-semibold text-white">MEP</h2>
+                      <p className="text-xl font-semibold text-white">Tensile</p>
                       <Link
-                        to="/"
+                        to="/tensile-fabric-roofing"
                         className="focus:outline-none focus:underline flex justify-end items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -382,7 +382,7 @@ const ProductCards = () => {
                     </div>
                   </div>
                   <LazyLoadImage
-                    src="/Home/MEP.avif"
+                    src="/Home/tensile.avif"
                     className="w-full rounded-lg"
                     alt="MEP"
                   />
@@ -395,11 +395,11 @@ const ProductCards = () => {
               >
                 <div>
                   <div className="absolute w-full bottom-0 left-0 md:p-5 p-2 bg-black bg-opacity-60">
-                    <h2 className="text-xl font-semibold text-white">
+                    <p className="text-xl font-semibold text-white">
                       Civil Constructions
-                    </h2>
+                    </p>
                     <Link
-                      to="/"
+                      to="/civil-construction-company-chennai"
                       className="focus:outline-none focus:underline flex justify-end items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                     >
                       <p className="pr-2 text-sm font-medium leading-none">
@@ -425,7 +425,7 @@ const ProductCards = () => {
                   </div>
                 </div>
                 <LazyLoadImage
-                  src="/Home/Factory-buildings.avif"
+                  src="/Home/Civil-construction.avif"
                   alt="Factory-buildings"
                   className="w-full mt-8 md:mt-6 hidden sm:block rounded-lg"
                 />
@@ -444,11 +444,11 @@ const ProductCards = () => {
               >
                 <div>
                   <div className="absolute w-full bottom-0 left-0 md:p-5 p-2 bg-black bg-opacity-60">
-                    <h2 className="text-xl font-semibold text-white">
+                    <p className="text-xl font-semibold text-white">
                       Warehouse Construction
-                    </h2>
+                    </p>
                     <Link
-                      to="/"
+                      to="/warehouse-shed-manufacturer-chennai"
                       className="focus:outline-none focus:underline flex items-center mt-4 justify-end cursor-pointer text-white hover:text-gray-200 hover:underline"
                     >
                       <p className="pr-2 text-sm font-medium leading-none">
@@ -493,12 +493,12 @@ const ProductCards = () => {
                   <div>
                     {/* Container with black background and low opacity */}
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
-                      <h2 className="text-xl font-semibold text-white">
-                        Cold Storage
-                      </h2>
+                      <p className="text-xl font-semibold text-white">
+                        Solor Panel
+                      </p>
 
                       <Link
-                        to="/"
+                        to="/solar-panel-manufacturer-and-installer"
                         className="focus:outline-none focus:underline flex items-center justify-end mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -524,7 +524,7 @@ const ProductCards = () => {
                     </div>
                   </div>
                   <LazyLoadImage
-                    src="/Home/Cold-storage.avif"
+                    src="/Home/solor-panal.avif"
                     className="w-full rounded-lg"
                     alt="Cold-storage"
                   />
@@ -537,11 +537,11 @@ const ProductCards = () => {
                 >
                   <div>
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
-                      <h2 className="text-xl font-semibold text-white">
+                      <p className="text-xl font-semibold text-white">
                         Institutional building
-                      </h2>
+                      </p>
                       <Link
-                        to="/"
+                        to="/Institutional-building-construction"
                         className="focus:outline-none focus:underline flex items-center mt-4 justify-end cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -567,7 +567,7 @@ const ProductCards = () => {
                     </div>
                   </div>
                   <LazyLoadImage
-                    src="/Home/Cold-storage.avif"
+                    src="/Home/Institutional-building.avif"
                     className="w-full  rounded-lg"
                     alt="wall design"
                   />

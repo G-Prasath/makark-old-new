@@ -3,6 +3,13 @@ import Heading from "../Common/Heading/Heading";
 import { IoLocationOutline } from "react-icons/io5";
 
 const MapNew = () => {
+  const locations = [
+    "Tamil Nadu",
+    "Andhra Pradesh",
+    "Karnataka",
+    "Kerala",
+  ];
+
   return (
     <div>
       <section className="text-gray-700 body-font border-t border-gray-200 bg-[#eef7fc]">
@@ -31,56 +38,17 @@ const MapNew = () => {
             </div>
 
             <div className="grid md:grid-cols-3 gap-x-4 gap-y-8 w-full place-content-center">
-              <div
-                className="flex items-center gap-3"
-                data-aos="zoom-out-up"
-                data-aos-duration="1000"
-              >
-                <IoLocationOutline className="size-[20px]" />
-                <p className="text-[18px]">Locations name</p>
-              </div>
-              <div className="flex items-center gap-3"
-              data-aos="zoom-out-up"
-              data-aos-duration="1000">
-                <IoLocationOutline className="size-[20px]" />
-                <p className="text-[18px]">Locations name</p>
-              </div>
-              <div className="flex items-center gap-3"
-              data-aos="zoom-out-up"
-              data-aos-duration="1000">
-                <IoLocationOutline className="size-[20px]" />
-                <p className="text-[18px]">Locations name</p>
-              </div>
-              <div className="flex items-center gap-3"
-              data-aos="zoom-out-up"
-              data-aos-duration="1000">
-                <IoLocationOutline className="size-[20px]" />
-                <p className="text-[18px]">Locations name</p>
-              </div>
-              <div className="flex items-center gap-3"
-              data-aos="zoom-out-up"
-              data-aos-duration="1000">
-                <IoLocationOutline className="size-[20px]" />
-                <p className="text-[18px]">Locations name</p>
-              </div>
-              <div className="flex items-center gap-3"
-              data-aos="zoom-out-up"
-              data-aos-duration="1000">
-                <IoLocationOutline className="size-[20px]" />
-                <p className="text-[18px]">Locations name</p>
-              </div>
-              <div className="flex items-center gap-3"
-              data-aos="zoom-out-up"
-              data-aos-duration="1000">
-                <IoLocationOutline className="size-[20px]" />
-                <p className="text-[18px]">Locations name</p>
-              </div>
-              <div className="flex items-center gap-3"
-              data-aos="zoom-out-up"
-              data-aos-duration="1000">
-                <IoLocationOutline className="size-[20px]" />
-                <p className="text-[18px]">Locations name</p>
-              </div>
+              {locations.map((location, index) => (
+                <div
+                  key={index}
+                  className="flex items-center gap-3"
+                  data-aos="zoom-out-up"
+                  data-aos-duration="1000"
+                >
+                  <IoLocationOutline className="size-[20px]" />
+                  <p className="text-[18px]">{location}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -46,7 +46,7 @@ const AboutProfile = () => {
         >
           <img
             className="w-full h-auto object-cover rounded-2xl"
-            src="/About/profile.webp"
+            src="/About/Profile.avif"
             alt="Antelope Canyon"
           />
         </div>

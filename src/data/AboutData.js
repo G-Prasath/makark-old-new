@@ -36,7 +36,7 @@ export const AddressData = [
   },
   {
     id: 3,
-    name: "Tirunelveli",
+    name: "Bangalore",
     post: "Lorem ipsum, ehhejejm",
     img: "/About/Our-location-bangalore.png",
     direction: "https://www.google.com/maps/dir/?api=1&destination=Tirunelveli",

@@ -9,7 +9,7 @@ const AboutBanner = () => {
         data-aos="zoom-in-up"
       >
         <img
-          src="/About/Banner.webp"
+          src="/About/Banner.avif"
           alt="Background Image"
           className="absolute inset-0 w-full h-full object-cover filter"
         />

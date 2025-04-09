@@ -10,10 +10,10 @@ import CivilBenifites from '../components/civil/CivilBenifites';
 import CivilApplications from '../components/civil/CivilApplications';
 import Process from '../components/civil/Process';
 import CivilTechSpec from '../components/civil/CivilTechSpec';
-import CivilPortfolio from '../components/civil/CivilPortfolio';
 import CivilWhyChoose from '../components/civil/CivilWhyChoose';
 import CivilFAQ from '../components/civil/CivilFAQ';
 import CivilForm from '../components/civil/CivilForm';
+import Gallery from "../components/Services/Gallery";
 
 const CivilConstruction = () => {
   const pageName = "Civil Constructions";
@@ -30,13 +30,12 @@ const CivilConstruction = () => {
         <PageBannerForm serviceName={pageName}/>
       </div>
       <Profile data={allData.profile} />
-
       <CivilBenifites data={allData.benifites} />
       <CivilApplications data={allData.Applications}/>
       <Process data={allData.Process}/>
       <CivilTechSpec data={allData.TechSpc}/>
-      <CivilPortfolio data={allData.Portfolio}/>
       <CivilWhyChoose data={allData.whychoose}/>
+      <Gallery data={allData.gallery} />
       <CivilFAQ data={allData.FAQ}/>
       <CivilForm/>
     </div>

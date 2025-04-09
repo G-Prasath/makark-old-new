@@ -274,7 +274,7 @@ export const Peb = {
 export const CivilCostructionData = {
   banner: {
     heading: "Civil Construction",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/civil/civilBanner.avif",
   },
   profile: {
     heading: "Civil Construction Services",
@@ -282,7 +282,7 @@ export const CivilCostructionData = {
       "Mekark Structure Pvt Ltd established in the year 2009 at Chennai. We are the leading construction        company in the market to provide the best deals and wide range of Construction Services for Residential, Commercial and Industrial. As civil construction contractors, Mekark expert Team provide top-notch services, they make use of the most recent technologies and tools. To guarantee that our clients are happy with our services, we always adhere to the most recent industry trends and standards. We can give you whatever service you require because we are that arrive in a gigantic scope of shapes and hues; it implies quick site establishment and less vitality utilization. It means deciding to focus on the standards of manageability. Endlessly recyclable, steel is the material that mirrors the objectives of the supportable turn of events. Selecting steel implies picking a more exceptional opportunity for the development of engineering. It means infusing style into the structures and the urban areas of tomorrow. Steel gives numerous points of interest to the planner for the structure of a multi-story building: large traverses are conceivable. A steel building is lighter than a conventional structure.",
       "Mekark Construction team builds your dream house according to your needs, using the latest construction techniques and management tools, and selects the most suitable products for your dream home. When you choose us, you want the benefits of 20 years of experience in the construction industry. With our ability to meet a wide variety of needs, we have the option of dealing specifically with our valued customers."
     ],
-    img: "/About/Banner.webp",
+    img: "/civil/civilProfile.avif",
   },
   benifites: [
     "Civil construction projects follow precise planning and execution. Advanced construction techniques improve efficiency and accuracy. This minimizes delays and ensures timely project completion.",
@@ -294,34 +294,34 @@ export const CivilCostructionData = {
   Applications: [
     {
       imgUrl:
-        "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
+        "/civil/administrativeBuilding.avif",
       title: "Administrative Building",
     },
     {
       imgUrl:
-        "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
+        "/civil/commercialBuilding.avif",
       title: "Commercial Building",
     },
     {
       imgUrl:
-        "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
+        "/civil/educationalInstitutionBuilding.avif",
       title: "Educational Institution Building",
     },
     {
       imgUrl:
-        "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
+        "/civil/hotelConventionCentre.avif",
       title: "Hotel & Convention Centre",
     },
     {
       imgUrl:
-        "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
+        "/civil/industrialBuilding.avif",
       title: "Industrial Building",
     },
     {
       imgUrl:
-        "https://img.freepik.com/free-photo/empty-parking-lot-parking-lane-outdoor-public-park_1127-3309.jpg?t=st=1731567859~exp=1731571459~hmac=b34ee85267563ec866cbd356cde7f4d5c30b62c31ebc756c4dfe45d302f7d77d&w=996",
+        "/civil/residentialBuilding.avif",
       title: "Residential Building",
-    }
+    },
   ],
   Process: [
     {
@@ -349,50 +349,6 @@ export const CivilCostructionData = {
     "The building is designed to withstand significant live and dead loads, ensuring long-term stability. Structural components like beams, columns, and foundations are engineered to resist environmental forces, including wind and seismic activity. This design approach guarantees the building's safety, durability, and ability to endure various stresses, providing a reliable structure for many years.",
     "The construction uses high-quality materials like reinforced concrete, steel, and masonry to ensure durability. CAD technology enables precise design, while modern machinery enhances execution efficiency. These advancements contribute to a high-quality finish, fast-track construction, and improved safety throughout the entire process, ensuring the structure's longevity and strength while minimizing potential risks during building and installation.",
     "The project integrates eco-friendly materials, recycled resources, and energy-efficient construction. Natural lighting and advanced HVAC systems enhance efficiency while reducing energy consumption. Sustainable practices minimize operational costs and waste. These initiatives ensure long-term ecological and financial benefits. The approach supports environmental responsibility and creates a cost-effective, energy-saving building that balances sustainability with economic efficiency.",
-  ],
-  Portfolio: [
-    {
-      title: "Delhi",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      imageUrl:
-        "https://c4.wallpaperflare.com/wallpaper/961/859/615/newdelhi-redfort-landmark-sky-wallpaper-preview.jpg",
-    },
-    {
-      title: "Agra",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      imageUrl:
-        "https://c4.wallpaperflare.com/wallpaper/249/678/415/unesco-world-heritage-site-asia-india-agra-wallpaper-preview.jpg",
-    },
-    {
-      title: "Delhi",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      imageUrl:
-        "https://c4.wallpaperflare.com/wallpaper/961/859/615/newdelhi-redfort-landmark-sky-wallpaper-preview.jpg",
-    },
-    {
-      title: "Agra",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      imageUrl:
-        "https://c4.wallpaperflare.com/wallpaper/249/678/415/unesco-world-heritage-site-asia-india-agra-wallpaper-preview.jpg",
-    },
-    {
-      title: "Delhi",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      imageUrl:
-        "https://c4.wallpaperflare.com/wallpaper/961/859/615/newdelhi-redfort-landmark-sky-wallpaper-preview.jpg",
-    },
-    {
-      title: "Agra",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      imageUrl:
-        "https://c4.wallpaperflare.com/wallpaper/249/678/415/unesco-world-heritage-site-asia-india-agra-wallpaper-preview.jpg",
-    },
   ],
   whychoose: [
     {
@@ -425,6 +381,20 @@ export const CivilCostructionData = {
       description:
         "Professional Management: Expert project and construction management to ensure smooth execution",
     },
+  ],
+  gallery : [
+    "/civil/gallery_01.avif",
+    "/civil/gallery_02.avif",
+    "/civil/gallery_03.avif",
+    "/civil/gallery_04.avif",
+    "/civil/gallery_05.avif",
+    "/civil/gallery_06.avif",
+    "/civil/gallery_07.avif",
+    "/civil/gallery_08.avif",
+    "/civil/gallery_09.avif",
+    "/civil/gallery_10.avif",
+    "/civil/gallery_11.avif",
+    "/civil/gallery_12.avif"
   ],
   FAQ: [
     {
@@ -459,7 +429,7 @@ export const CivilCostructionData = {
 export const MultistorySteelBuildingData = {
   banner: {
     heading: " Multi-Storey Steel Building",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/Mssb/mssbBanner.avif",
   },
   profile: {
     heading: "Innovative Solutions for Multi-Storey Steel Building Manufacturer",
@@ -468,7 +438,7 @@ export const MultistorySteelBuildingData = {
       "Steel structures are getting much more popular as a choice of construction for High-rise buildings. Choosing steel to structure a multi-storey steel building is to pick a material that offers ease, quality, sturdiness, plan adaptability, versatility and recyclability. Likewise, it implies picking substantial mechanical items that arrive in a gigantic scope of shapes and hues; it implies quick site establishment and less vitality utilization. It means deciding to focus on the standards of manageability. Endlessly recyclable, steel is the material that mirrors the objectives of the supportable turn of events. Selecting steel implies picking a more exceptional opportunity for the development of engineering. It means infusing style into the structures and the urban areas of tomorrow. Steel gives numerous points of interest to the planner for the structure of a multi-storey steel building: large traverses are conceivable. A steel building is lighter than a conventional structure."
 
     ],
-    img: "/About/Banner.webp",
+    img: "/Mssb/mssbProfile.avif",
   },
   // diffrencesData: {
   //   lSide: [
@@ -535,32 +505,32 @@ export const MultistorySteelBuildingData = {
         "Focus on the customer with tailored solutions and transparent communication with excellent service.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/Mssb/why_choose.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Mssb/commercialBuilding.avif",
       name: "Commercial",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Mssb/institutionBuilding.avif",
       name: "Institutional",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Mssb/shoppingMall.avif",
       name: "Shopping mall",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Mssb/hospitalBuilding.avif",
       name: "Hospitals",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Mssb/highRiseBuilding.avif",
       name: "High Rise building",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Mssb/apartmentBuilding.avif",
       name: "Apartment",
     },
   ],
@@ -592,42 +562,20 @@ export const MultistorySteelBuildingData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+    "/Mssb/gallery_01.avif",
+  "/Mssb/gallery_02.avif",
+  "/Mssb/gallery_03.avif",
+  "/Mssb/gallery_04.avif",
+  "/Mssb/gallery_05.avif",
+  "/Mssb/gallery_06.avif",
+  "/Mssb/gallery_07.avif",
+  "/Mssb/gallery_08.avif",
+  "/Mssb/gallery_09.avif",
+  "/Mssb/gallery_10.avif",
+  "/Mssb/gallery_11.avif",
+  "/Mssb/gallery_12.avif",
+  "/Mssb/gallery_13.avif",
+  "/Mssb/gallery_14.avif",
   ],
 };
 
@@ -635,7 +583,7 @@ export const MultistorySteelBuildingData = {
 export const IndustrialShedData = {
   banner: {
     heading: "Industrial Shed",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/Industrial/Banner.avif",
   },
   profile: {
     heading: "Perfect Industrial Shed for your Business",
@@ -643,22 +591,9 @@ export const IndustrialShedData = {
       "Industrial sheds are an essential component for businesses that require a dedicated space for storage, manufacturing, or processing. Durable industrial sheds are constructed with high-quality materials that can withstand harsh weather conditions and heavy loads. It is a popular choice for industrial sheds due to its strength, durability, and resistance to corrosion. In addition, industrial sheds can be customized with a variety of features to meet specific business needs, such as mezzanine levels, loading docks, and specialized storage racks or shelving. This can help optimize space utilization and improve efficiency. A durable and efficient industrial shed can provide long-term benefits for businesses, such as improved productivity, cost savings, and a secure storage space for inventory or equipment.",
       "Mekark is the best manufacturer and supplier of Industrial Shed structures, offers best-in-class solutions for building at a standard construction cost. We provide high-quality raw material and lifetime guarantee of durability and efficient services. As Mekark, top manufacturer and supplier of industrial shed structures provide high-quality, customized solutions that meet the specific needs of businesses. Our Industrial shed supplier in India, offer a wide range of options and features, including insulation, ventilation, lighting, and specialized storage solutions. Mekark preengineered fabricated structures provide efficient and cost-effective installation and construction services, as well as ongoing maintenance and support. Additionally, Mekark have a strong reputation for delivering projects on time and within budget, as well as providing excellent customer service and support. They should also prioritize safety and compliance with relevant regulations and standards. You are looking for a manufacturer and supplier of industrial shed structures in India. Mekark is best choice for Industry shed such as quality, customization, expertise, and reputation. "
     ],
-    img: "/About/Banner.webp",
+    img: "/Industrial/industrialProfile.avif",
   },
-  // diffrencesData: {
-  //   lSide: [
-  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-  //   ],
-  //   rSide: [
-  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam!",
-  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, repellat. Fugit accusamus sunt aliquam ex accusantium est facere iure quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eligendi!",
-  //   ],
-  // },
+ 
   benifites: [
     "Mekark can provide customized solutions to meet the specific needs of businesses. Our Team can design and construct industrial sheds that are tailored to meet the unique requirements of each business, such as size, shape, and special features.",
     "Mekark will use high-quality materials and equipment to ensure that their industrial sheds are durable, safe, and long-lasting. We help to ensure that the industrial shed will provide a secure and reliable storage space for the business.",
@@ -708,22 +643,22 @@ export const IndustrialShedData = {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/Industrial/industrialShed.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Industrial/chemicalIndustry.avif",
       name: "Chemical industry",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Industrial/industrialEnclosures.avif",
       name: "Industrial Enclosures",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Industrial/manufacturingIndustries.avif",
       name: "Manufacturing industries",
-    }
+    },
   ],
   Faqs: [
     {
@@ -753,42 +688,15 @@ export const IndustrialShedData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+    "/Industrial/gallery_01.avif",
+  "/Industrial/gallery_02.avif",
+  "/Industrial/gallery_03.avif",
+  "/Industrial/gallery_04.avif",
+  "/Industrial/gallery_05.avif",
+  "/Industrial/gallery_06.avif",
+  "/Industrial/gallery_07.avif",
+  "/Industrial/gallery_08.avif",
+  "/Industrial/gallery_09.avif",
   ],
 };
 
@@ -796,7 +704,7 @@ export const IndustrialShedData = {
 export const WarehouseShedData = {
   banner: {
     heading: "Warehouse construction",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/Warehouse/warehouseBanner.avif",
   },
   profile: {
     heading: "Choosing the Perfect warehouse contractors for Your Business",
@@ -804,7 +712,7 @@ export const WarehouseShedData = {
       "A Warehouse shed is a standalone structure that is designed to provide additional storage space for a variety of items. It typically consists of a metal or steel frame with walls and a roof and can be customized to suit the specific needs of a business or organization. Warehouse sheds are commonly used to store inventory, equipment, machinery, and other items that need to be protected from the elements. They can be found in a variety of industries, including manufacturing, logistics, agriculture and construction. Warehouse sheds are often designed to be easy to assemble and disassemble, making them a flexible and cost-effective solution for businesses that require extra storage space. Mekark Structure Pvt Ltd specializes in providing high-quality warehouse shed solutions. Our experienced team of experts can design and construct sheds in a variety of sizes, styles and materials to meet your needs. We provide custom-made designs and can build sheds to fit any space.",
       "Our sheds are designed to be durable and easy to maintain, making them ideal for long-term storage needs. We also offer a wide range of additional services, including on-site storage, space rental, and warehouse management. With our competitive pricing and exceptional customer service, you can be sure that you'll get the best shed for your needs. Mekark is a full-service provider of Prefabricated Warehouse Shed solutions. We offer custom-made designs that can fit any space, and a wide range of additional services such as on-site storage, space rental, and warehouse management. Our experienced team of experts can design and construct sheds in various sizes, styles and materials to meet your needs. We guarantee quality, durability, and easy-to-maintain sheds that are perfect for long-term storage needs. With our competitive pricing and exceptional customer service, you can be sure that you'll get the best shed solution to meet your needs."    
     ],
-    img: "/About/Banner.webp",
+    img: "/Warehouse/warehouseProfile.avif",
   },
   benifites: [
     "Warehouse structures offer rapid construction with prefabricated components. This reduces labor costs and accelerates project completion. Faster setup ensures quicker operational readiness.",
@@ -855,28 +763,28 @@ export const WarehouseShedData = {
         "We make sure that all warehouses are built and designed to the industry standards and rules.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/Warehouse/warehouse.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Warehouse/storageofGoods.avif",
       name: "Storage of Goods",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Warehouse/distributionCenters.avif",
       name: "Distribution Centers",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Warehouse/rawMaterialStorage.avif",
       name: "Raw Material Storage",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-      name: "ndustrial Product Storage",
+      img: "/Warehouse/industrialProductStorage.avif",
+      name: "Industrial Product Storage",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Warehouse/coldStorage.avif",
       name: "Cold Storage",
     },
   ],
@@ -908,42 +816,18 @@ export const WarehouseShedData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+   "/Warehouse/gallery_01.avif",
+  "/Warehouse/gallery_02.avif",
+  "/Warehouse/gallery_03.avif",
+  "/Warehouse/gallery_04.avif",
+  "/Warehouse/gallery_05.avif",
+  "/Warehouse/gallery_07.avif",
+  "/Warehouse/gallery_08.avif",
+  "/Warehouse/gallery_09.avif",
+  "/Warehouse/gallery_10.avif",
+  "/Warehouse/gallery_11.avif",
+  "/Warehouse/gallery_12.avif",
+  "/Warehouse/gallery_13.avif",
   ],
 };
 

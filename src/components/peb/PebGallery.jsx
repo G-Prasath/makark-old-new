@@ -3,9 +3,12 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Heading from "../Common/Heading/Heading";
 
-const PebGallery = ({data}) => {
+const PebGallery = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Convert string array to image gallery object format
+  const galleryItems = data.map((src) => ({ original: src }));
 
   // Handle image click to open the lightbox
   const openLightbox = (index) => {
@@ -28,7 +31,7 @@ const PebGallery = ({data}) => {
           {data.map((item, index) => (
             <div key={index} className="p-4 cursor-pointer">
               <img
-                src={item.original}
+                src={item}
                 onClick={() => openLightbox(index)}
                 alt={`Thumbnail ${index + 1}`}
                 className="rounded w-full"
@@ -49,7 +52,7 @@ const PebGallery = ({data}) => {
           </button>
           <div className="w-full md:w-3/4 lg:w-1/2">
             <ImageGallery
-              items={data}
+              items={galleryItems}
               startIndex={currentIndex}
               showThumbnails={false}
               showFullscreenButton={false}

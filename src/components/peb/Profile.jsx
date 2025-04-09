@@ -12,7 +12,7 @@ const Profile = () => {
           className="w-full md:h-[70vh] aspect-square bg-cover bg-center"
           style={{
             backgroundImage:
-              "url(https://img.freepik.com/free-photo/factory-workshop-interior-machines-glass-production-background_645730-396.jpg?t=st=1730822003~exp=1730825603~hmac=5e25fa4666af8067937d03a914cd01f51a27b0031a646efb83dc571b519afef3&w=996)",
+              "url(/Peb/Profile.avif)",
           }}
           data-aos="flip-up"
           data-aos-duration="800"

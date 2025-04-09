@@ -151,7 +151,7 @@ export const Peb = {
       title: "Industrial Shed",
     },
     {
-      image: "/Peb/PEB app - Rice MILL 5.webp",
+      image: "/Peb/PEB app - Rice MILL 5.avif",
       title: "Rice MILL",
     },
     {
@@ -226,44 +226,21 @@ export const Peb = {
       para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloremque atque dicta recusandae debitis tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, inventore",
     },
   ],
-  Gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+  Gallery : [
+    "/Peb/Gallery - 1.avif",
+    "/Peb/Gallery - 2.avif",
+    "/Peb/Gallery - 3.avif",
+    "/Peb/Gallery - 4.avif",
+    "/Peb/Gallery - 5.avif",
+    "/Peb/Gallery - 6.avif",
+    "/Peb/Gallery - 7.avif",
+    "/Peb/Gallery - 8.avif",
+    "/Peb/Gallery - 9.avif",
+    "/Peb/Gallery - 10.avif",
+    "/Peb/Gallery - 11.avif",
+    "/Peb/Gallery - 12.avif"
   ],
+  
   Faq: [
     {
       question: "What are Pre-Engineered Buildings (PEBs)?",

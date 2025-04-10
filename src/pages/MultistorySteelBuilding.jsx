@@ -15,7 +15,7 @@ import ServiceFormBanner from "../components/Services/ServiceFormBanner";
 
 
 const MultistorySteelBuilding = () => {
-  const pageName = "Multi Story Steel Buildings";
+  const pageName = "Multi-Storey Steel Building";
   return (
     <div>
       <Helmet>

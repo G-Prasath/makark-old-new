@@ -144,7 +144,7 @@ export const Peb = {
     },
     {
       image: "/Peb/PEB app - Muilty story building - 3.webp",
-      title: "Muilty Story Building",
+      title: "Multistorey building",
     },
     {
       image: "/Peb/PEB app - Industrial Shed 4.webp",
@@ -172,7 +172,7 @@ export const Peb = {
     },
     {
       image: "/Peb/PEB app - Office Buildings 10.webp",
-      title: "Office Buildings",
+      title: "Corporate Buildings",
     },
     {
       image: "/Peb/PEB app - Airport 11.webp",

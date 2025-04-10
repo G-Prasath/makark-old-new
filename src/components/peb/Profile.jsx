@@ -6,13 +6,12 @@ const Profile = () => {
       <div className="">
         {/* Left content section */}
         <h1 className="mb-6 text-xl sm:text-4xl font-semibold text-center">
-        How Pre-engineered building manufactured?
+          How Pre-engineered building manufactured?
         </h1>
         <div
-          className="w-full md:h-[70vh] aspect-square bg-cover bg-center"
+          className="w-full min-sm:aspect-square aspect-video bg-contain bg-no-repeat"
           style={{
-            backgroundImage:
-              "url(/Peb/Profile.avif)",
+            backgroundImage: "url(/Peb/Profile.avif)",
           }}
           data-aos="flip-up"
           data-aos-duration="800"
@@ -22,15 +21,38 @@ const Profile = () => {
         <div className="w-full p-3 sm:p-5">
           <div className="sm:p-5">
             <p className="text-gray-600 my-3 leading-relaxed text-justify">
-            Pre-engineered Buildings As the name implies, it involves the pre-engineering of structural parts. PEB supplies portions that vary in length depending on the requirement. These are steel-framed factories that are welded together on-site. It can easily be enlarged later by simply adding bays. Its high-quality painting system ensures extended durability and little maintenance. PEBs are typically used for industrial, commercial, and institutional buildings, such as warehouses, factories, schools, and retail buildings. PEBs are typically used for industrial, commercial, and institutional buildings, such as warehouses, factories, schools, and retail buildings. They can also be used for infrastructure projects such as airports, bridges, and railways.
+              Pre-engineered Buildings As the name implies, it involves the
+              pre-engineering of structural parts. PEB supplies portions that
+              vary in length depending on the requirement. These are
+              steel-framed factories that are welded together on-site. It can
+              easily be enlarged later by simply adding bays. Its high-quality
+              painting system ensures extended durability and little
+              maintenance. PEBs are typically used for industrial, commercial,
+              and institutional buildings, such as warehouses, factories,
+              schools, and retail buildings. PEBs are typically used for
+              industrial, commercial, and institutional buildings, such as
+              warehouses, factories, schools, and retail buildings. They can
+              also be used for infrastructure projects such as airports,
+              bridges, and railways.
             </p>
 
             <p className="text-gray-600 my-4 leading-relaxed text-justify">
-            Pre-engineered buildings (PEBs) are structures that are designed, manufactured, and assembled off-site, typically in a factory, using advanced manufacturing techniques and technology. PEBs are constructed using pre-fabricated components that are assembled on-site, resulting in a faster, more efficient construction process compared to traditional construction methods.
+              Pre-engineered buildings (PEBs) are structures that are designed,
+              manufactured, and assembled off-site, typically in a factory,
+              using advanced manufacturing techniques and technology. PEBs are
+              constructed using pre-fabricated components that are assembled
+              on-site, resulting in a faster, more efficient construction
+              process compared to traditional construction methods.
             </p>
 
             <p className="text-gray-600 my-4 leading-relaxed text-justify">
-            Mekark is a leading pre-engineered buildings (PEBs) manufacturer that offers customized and cost-effective solutions for commercial, industrial, and residential structures. With over 20 years of experience, their innovative designs and use of advanced technology ensure quality and timely delivery of projects. Mekark's commitment to sustainability and customer satisfaction makes them a reliable choice for PEBs.
+              Mekark is a leading pre-engineered buildings (PEBs) manufacturer
+              that offers customized and cost-effective solutions for
+              commercial, industrial, and residential structures. With over 20
+              years of experience, their innovative designs and use of advanced
+              technology ensure quality and timely delivery of projects.
+              Mekark's commitment to sustainability and customer satisfaction
+              makes them a reliable choice for PEBs.
             </p>
           </div>
         </div>

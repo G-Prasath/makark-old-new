@@ -16,7 +16,7 @@ import PageBannerForm from "../components/Common/PageBannerForm";
 import { Helmet } from "react-helmet";
 
 const Peb = () => {
-  const PageName = "Pre Enginreed Buildings";
+  const PageName = "Pre-Engineered building";
   return (
     <div>
       <Helmet>

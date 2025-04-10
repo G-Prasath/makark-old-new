@@ -15,7 +15,7 @@ import { SolorData as allData } from "../data/ServicesData";
 import { Solorpanel_PageMeta as metaTags } from "../data/Metatags";
 
 const Solor = () => {
-  const pageName = "Solor Energy";
+  const pageName = "Solar Panels";
   return (
     <div>
       <Helmet>

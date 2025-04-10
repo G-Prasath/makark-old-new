@@ -494,7 +494,7 @@ const ProductCards = () => {
                     {/* Container with black background and low opacity */}
                     <div className="absolute w-full bottom-0 left-0 p-2 bg-black bg-opacity-60">
                       <p className="text-xl font-semibold text-white">
-                        Solor Panel
+                        Solar Panel
                       </p>
 
                       <Link

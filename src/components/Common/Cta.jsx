@@ -2,6 +2,7 @@ import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import "./css/Cta.css";
+import { Link } from "react-router-dom";
 
 const Cta = () => {
   return (
@@ -18,14 +19,14 @@ const Cta = () => {
               personalized services.
             </p>
             <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 justify-center">
-              <button data-aos="fade-right" data-aos-duration="2000" className="bg-black text-white py-3 px-6 rounded-full flex items-center justify-center space-x-2 w-full sm:w-auto">
+              <Link to={`tel:+919790924754`} target="_blank" data-aos="fade-right" data-aos-duration="2000" className="bg-black text-white py-3 px-6 rounded-full flex items-center justify-center space-x-2 w-full sm:w-auto">
                 <FaPhoneAlt />
                 <span className="font-semibold">Connect to an Expert</span>
-              </button>
-              <button data-aos="fade-left" data-aos-duration="2000" className="bg-black text-white py-3 px-6 rounded-full flex items-center justify-center space-x-2 w-full sm:w-auto">
+              </Link>
+              <Link to={`https://api.whatsapp.com/send?phone=9790924754`} target="_blank" data-aos="fade-left" data-aos-duration="2000" className="bg-black text-white py-3 px-6 rounded-full flex items-center justify-center space-x-2 w-full sm:w-auto">
                 <IoLogoWhatsapp className="text-xl" />
                 <span className="font-semibold">Reach us via Whatsapp</span>
-              </button>
+              </Link>
             </div>
           </div>
           {/* text section I need */}

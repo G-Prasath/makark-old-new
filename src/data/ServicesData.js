@@ -607,40 +607,40 @@ export const IndustrialShedData = {
         "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
       title: "Feature Name 1",
       subtitle:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
+        "Expertise in constructing industrial sheds combining innovation with practicability enhances functionality and strength.",
     },
     {
       iconPath:
         "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
       title: "Feature Name 2",
       subtitle:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
+        "Every construction involves high strength material and the latest fabrication techniques to ensure each industrial shed gives unmatched structural stability and resilience.",
     },
     {
       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
       title: "Feature Name 3",
       subtitle:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
+        "Tailored industrial shed designs that maximize operational efficiency while maintaining an aesthetically pleasing industrial environment.",
     },
     {
       iconPath:
         "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
       title: "Feature Name 4",
       subtitle:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
+        "Dedicated project management to ensure timely completion and smooth coordination from design to industrial shed installation.",
     },
     {
       iconPath:
         "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z",
       title: "Feature Name 2",
       subtitle:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
+        "Advanced construction techniques to ensure the work is completed quickly while maintaining the highest standards of quality and precision.",
     },
     {
       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
       title: "Feature Name 3",
       subtitle:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore ipsa molestias provident expedita illo veritatis voluptas eos voluptatibus sunt.",
+        "Comprehensive services that include consultation, design, construction, and post-installation support, ensuring a seamless experience from start to finish.",
     },
     {
       img: "/Industrial/industrialShed.avif",
@@ -835,7 +835,7 @@ export const WarehouseShedData = {
 export const FactoryBuildingsData = {
   banner: {
     heading: "Factory Shed Building Manufacturer",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/Factory/factoryBanner.avif",
   },
   profile: {
     heading: "Cost-effective and Efficiency Factory Shed Building",
@@ -843,7 +843,7 @@ export const FactoryBuildingsData = {
       "A factory building is a type of industrial facility designed for the manufacture of goods or products. It is typically a large, single-story structure that houses machinery, assembly lines, and storage areas. The building is designed to be functional, efficient, and safe, with features such as high ceilings, wide-open floor space, and loading docks to accommodate the movement of goods and materials. Factory buildings can be used for a variety of manufacturing processes, including electronics, automotive, textiles and food production. A sustainable factory building can be both cost-effective and efficient, with features such as renewable energy sources, rainwater harvesting, and green roofs. These features can help reduce energy and water consumption, as well as lower utility bills. The efficient factory building should be designed and constructed with an emphasis on sustainability, efficiency, and modern technology. Cost-effective and efficient factory buildings are essential for businesses looking to maximize productivity and profitability. Mekark is the best preferred choice of Factory shed manufacturer and suppliers in industrial construction these days.",
       "Our Mekark design of the factory building should be optimized for efficiency, with an emphasis on minimizing waste, reducing energy consumption, and maximizing workflow. An experienced architect team can help design a building that meets these criteria while still being aesthetically pleasing. Mekark provide of turnkey solutions for Factory shed building, including design, fabrication, manufacture and installation. At Mekark Company, we pride ourselves on providing our customers with exceptional quality products and outstanding customer service. We are committed to delivering glasswool panels that meet the highest standards of quality and performance, ensuring that our customers receive the best value for their investment. Whether you are a builder, contractor, or homeowner, Mekark Company can provide you with the high-quality glasswool panels you need to improve energy efficiency, reduce noise pollution, and enhance comfort in any building project. Contact us today to get a quote about our products estimate."
     ],
-    img: "/About/Banner.webp",
+    img: "/Factory/factoryProfile.avif",
   },
 
   benifites: [
@@ -896,24 +896,24 @@ export const FactoryBuildingsData = {
         "We can be customized to meet specific requirements and constructed quickly and easily, allowing businesses to start operations sooner and respond to changes in demand.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/Factory/factoryshed.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Factory/factoryManufacturingCenters.avif",
       name: "Factory Manufacturing Centers",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Factory/factoryProductionPlants.avif",
       name: "Factory Production Plants",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Factory/coldStorageFacilities.avif",
       name: "Cold Storage Facilities",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Factory/recyclingPlants.avif",
       name: "Recycling Plants",
     },
   ],
@@ -945,42 +945,15 @@ export const FactoryBuildingsData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+    "/Factory/gallery_01.avif",
+  "/Factory/gallery_02.avif",
+  "/Factory/gallery_03.avif",
+  "/Factory/gallery_04.avif",
+  "/Factory/gallery_05.avif",
+  "/Factory/gallery_06.avif",
+  "/Factory/gallery_07.avif",
+  "/Factory/gallery_08.avif",
+  "/Factory/gallery_09.avif"
   ],
 };
 
@@ -988,7 +961,7 @@ export const FactoryBuildingsData = {
 export const InstiutitonBuildingsData = {
   banner: {
     heading: "Institutional building construction",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/Institutional/instutionalBanner.avif",
   },
   profile: {
     heading: "Institutional building construction",
@@ -996,7 +969,7 @@ export const InstiutitonBuildingsData = {
       "Mekark specializes in providing high-quality institutional building construction that combines innovative techniques with efficient workflows to create functional and inspiring educational spaces. Projects are executed with speed and precision using the PEB + civil construction method while maintaining excellent durability. This approach combines the strength of pre-engineered building systems with the versatility of civil engineering, ensuring every structure is tailored to meet the unique needs of schools, colleges, and universities.",
       "All aspects involved in the construction process are well-planned, including campus planning and design in fine detail to optimize utilization of space as well as functionality. Sustainable practices drive the approach that integrates advanced building envelope systems with a view toward optimizing energy efficiency while reducing impact on the environment. With accessibility standards, fire safety codes, and very strict construction safety protocols adhered to for every project, each one guarantees compliance and safety to the highest level. Starting from the beginning of site development all the way to the finishing touches of a delivered project, Mekark focuses on excellence in every detail. The seamless integration of modern technology, skilled craftsmanship, and rigorous quality control ensures structures that will stand the test of time. With a focus on sustainability, efficiency, and reliability, Mekark is the ideal partner for creating educational spaces that shape the future."
     ],
-    img: "/About/Banner.webp",
+    img: "/Institutional/instutionalProfile.avif",
   },
 
   benifites: [
@@ -1049,32 +1022,28 @@ export const InstiutitonBuildingsData = {
         "Institution buildings utilize advanced construction. Sustainable materials ensure durability, cost savings, and environmental responsibility. Energy-efficient systems enhance comfort while modern technologies create optimized learning environments.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/Institutional/instutionalBuilding.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Institutional/schoolBuilding.avif",
       name: "School",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Institutional/collegeBuilding.avif",
       name: "College",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Institutional/library.avif",
       name: "Library",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
-      name: "Lab",
-    },
-    {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Institutional/auditorium.avif",
       name: "Auditorium",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Institutional/indoorStadium.avif",
       name: "Indoor Stadium",
     },
   ],
@@ -1106,42 +1075,15 @@ export const InstiutitonBuildingsData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+    "/Institutional/gallery_01.avif",
+  "/Institutional/gallery_02.avif",
+  "/Institutional/gallery_03.avif",
+  "/Institutional/gallery_04.avif",
+  "/Institutional/gallery_05.avif",
+  "/Institutional/gallery_06.avif",
+  "/Institutional/gallery_07.avif",
+  "/Institutional/gallery_08.avif",
+  "/Institutional/gallery_09.avif",
   ],
 };
 
@@ -1149,7 +1091,7 @@ export const InstiutitonBuildingsData = {
 export const TensileData = {
   banner: {
     heading: "Tensile Fabric Roofing",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/Tensile/Banner.avif",
   },
   profile: {
     heading: "Tensile Fabric Roofing",
@@ -1157,7 +1099,7 @@ export const TensileData = {
       "Mekark specializes in tensile fabric roofing, producing durable, lightweight structures that are visually striking and stimulating to modern architecture. Incorporating high-performance materials like PTFE and ETFE foil and PVC-coated polyester fabric itself, these are designed for durable performance, requiring minimum maintenance.",
       "The extended lifespan of 25-50 years of tensile roofs provides various benefits, including flexibility, economy, and the best weather resistance. The facades made from architectural membranes are UV-resistant, while the synthetic load-generating strength results from our materials."
     ],
-    img: "/About/Banner.webp",
+    img: "/Tensile/Profile.avif",
   },
 
   benifites: [
@@ -1210,56 +1152,56 @@ export const TensileData = {
         "Our tensile structures meet all safety and fire-resistance standards, offering worry-free performance.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/Tensile/why_choose.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Food_Court.avif",
       name: "Food Court",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Auditorium_Tensile_Structure.avif",
       name: "Auditorium Tensile Structure",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Tensile_Car_Parking_Structure.avif",
       name: "Tensile Car Parking Structure",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Walkway_Covering.avif",
       name: "Walkway Covering",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Shopping_Malls.avif",
       name: "Shopping Malls",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Restaurants.avif",
       name: "Restaurants",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Gazebo.avif",
       name: "Gazebo",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Airport.avif",
       name: "Airport",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Kids_Play_Area.avif",
       name: "Kids Play Area",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Entrance.avif",
       name: "Entrances",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Sitout_Area.avif",
       name: "Sitout Area",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Tensile/Resort.avif",
       name: "Resort",
     },
   ],
@@ -1291,42 +1233,18 @@ export const TensileData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+    "/Tensile/gallery_01.avif",
+    "/Tensile/gallery_02.avif",
+    "/Tensile/gallery_03.avif",
+    "/Tensile/gallery_04.avif",
+    "/Tensile/gallery_05.avif",
+    "/Tensile/gallery_06.avif",
+    "/Tensile/gallery_07.avif",
+    "/Tensile/gallery_08.avif",
+    "/Tensile/gallery_09.avif",
+    "/Tensile/gallery_10.avif",
+    "/Tensile/gallery_11.avif",
+    "/Tensile/gallery_12.avif",
   ],
 };
 
@@ -1334,7 +1252,7 @@ export const TensileData = {
 export const SolorData = {
   banner: {
     heading: "Solar Panels",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/Solor/Banner.avif",
   },
   profile: {
     heading: "Solar Panels for Warehouses & Factories",
@@ -1344,7 +1262,7 @@ export const SolorData = {
       "For expert solar panel installation services tailored to warehouses and factories, contact us today! Our team specializes in providing cost-effective, energy-efficient solutions that help reduce your electricity bills and carbon footprint. Whether you're looking to optimize large rooftop spaces or integrate solar with existing power systems, we ensure seamless installation, reliable performance, and long-term savings. Get in touch with us to discuss your energy needs, and let us design a solar solution that works best for your business!",
       "If you are in need of professional and customized warehouse and factory solar panel installation, Contact us now! Whether you want to cover several vast terraces, or connect solar with the current power equipment, we guarantee well-installed, efficient, and cost-effective performance. Call us today and let’s begin to plan out the best energy solution for your business using the solar system."
     ],
-    img: "/About/Banner.webp",
+    img: "/Solor/Profile.avif",
   },
   benifites: [
     "Reduces energy bills and has other sustainability advantages for the long-term financial performance of the enterprise.",
@@ -1397,24 +1315,24 @@ export const SolorData = {
         "Only premium solar panels and inverters are used, backed by strong warranties and after-sales support for peace of mind.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/Solor/why_choose.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Solor/Commercial.avif",
       name: "Commercial",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Solor/Industrial.avif",
       name: "Industrial",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Solor/Institutional.avif",
       name: "Institutional",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Solor/Land.avif",
       name: "Empty Lands",
     }
   ],
@@ -1446,42 +1364,15 @@ export const SolorData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+    "/Solor/gallery_01.avif",
+  "/Solor/gallery_02.avif",
+  "/Solor/gallery_03.avif",
+  "/Solor/gallery_04.avif",
+  "/Solor/gallery_05.avif",
+  "/Solor/gallery_06.avif",
+  "/Solor/gallery_07.avif",
+  "/Solor/gallery_08.avif",
+  "/Solor/gallery_09.avif"
   ],
 };
 
@@ -1489,7 +1380,7 @@ export const SolorData = {
 export const MLCPData = {
   banner: {
     heading: "Multi Level Car Parking",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/MLCP/Banner.avif",
   },
   profile: {
     heading: "Multi Level Car Parking System",
@@ -1498,7 +1389,7 @@ export const MLCPData = {
       "A multi-level car parking system is a type of car parking facility that utilizes vertical space to accommodate a large number of vehicles within a limited area. This system consists of multiple levels of parking spaces stacked on top of each other, which can be accessed using ramps or elevators. The design of a multi-level car parking system can vary depending on the available space and requirements, but generally, it involves a steel or concrete structure that supports the weight of the vehicles and provides safety features such as fire protection, ventilation and security systems."
     
     ],
-    img: "/About/Banner.webp",
+    img: "/MLCP/profile.avif",
   },
 
   benifites: [
@@ -1551,28 +1442,28 @@ export const MLCPData = {
         "Our solutions are compatible with advanced parking systems like automation, sensors, and real-time monitoring for better management.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/MLCP/why_choose.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/MLCP/Hospitals.png",
       name: "Hospitals",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/MLCP/Hotel.png",
       name: "Hotels",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/MLCP/IT_Park.png",
       name: "IT Park",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/MLCP/Tourism_Sector.png",
       name: "Tourism Sector",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/MLCP/Sports_Stadium.png",
       name: "Sports Stadium",
     }
   ],
@@ -1604,42 +1495,15 @@ export const MLCPData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+    "/MLCP/gallery_01.avif",
+    "/MLCP/gallery_02.avif",
+    "/MLCP/gallery_03.avif",
+    "/MLCP/gallery_04.avif",
+    "/MLCP/gallery_05.avif",
+    "/MLCP/gallery_06.avif",
+    "/MLCP/gallery_07.avif",
+    "/MLCP/gallery_08.avif",
+    "/MLCP/gallery_09.avif"
   ],
 };
 
@@ -1647,14 +1511,14 @@ export const MLCPData = {
 export const SpaceFrameStructureData = {
   banner: {
     heading: "Space Frame Structure",
-    imageSrc: "/About/Banner.webp",
+    imageSrc: "/Space_Frame/Banner.avif",
   },
   profile: {
     heading: "Flexibility of Space Frame Structures",
     para: [
       "In the world of modern architecture, space frame structures have revolutionized the way we construct large-span buildings. These intricate and innovative frameworks are not only visually stunning but also offer a range of advantages that make them the go-to choice for many construction projects. At Mekark, we specialize in designing and building space frame structures that combine functionality, durability, and aesthetic appeal. With our expertise and commitment to excellence, we ensure that each space frame structure we create is a masterpiece of engineering and design.",
     ],
-    img: "/About/Banner.webp",
+    img: "/Space_Frame/Profile.avif",
   },
   benifites: [
     "Space frame structures excel in spanning large distances without the need for internal support columns or walls. This feature makes them ideal for constructing vast arenas, exhibition halls, airports, and other structures.",
@@ -1706,28 +1570,28 @@ export const SpaceFrameStructureData = {
         "At Mekark , customer satisfaction lies at the core of our operations. We endeavor to establish robust and enduring connections with our clientele through delivering unmatched service.",
     },
     {
-      img: "https://img.freepik.com/premium-photo/closed-market-pavilions-shops-are-closed-shopping-arcade-corridor-shopping-pavilion_251376-1232.jpg?w=360",
+      img: "/Space_Frame/Why_Choose.avif",
     },
   ],
   Applications: [
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Space_Frame/Airports.png",
       name: "Airports",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Space_Frame/Shopping_malls.png",
       name: "Shopping malls",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Space_Frame/Factories.png",
       name: "Factories",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Space_Frame/Museums.png",
       name: "Museums",
     },
     {
-      img: "https://img.freepik.com/free-photo/low-angle-view-scafolding-building_1252-1176.jpg?t=st=1732169042~exp=1732172642~hmac=cc867ec3ee856c20ea8e4699468c27dd0af5d98a6e69cb0fcd31dcbb9804ed4c&w=996",
+      img: "/Space_Frame/Stadiums.png",
       name: "Stadiums",
     }
   ],
@@ -1759,44 +1623,18 @@ export const SpaceFrameStructureData = {
     },
   ],
   gallery: [
-    {
-      original: "/Peb/Gallery 1.webp",
-      thumbnail: "/Peb/Gallery 1.webp",
-    },
-    {
-      original: "/Peb/Gallery 2.webp",
-      thumbnail: "/Peb/Gallery 2.webp",
-    },
-    {
-      original: "/Peb/Gallery 3.webp",
-      thumbnail: "/Peb/Gallery 3.webp",
-    },
-    {
-      original: "/Peb/Gallery 4.webp",
-      thumbnail: "/Peb/Gallery 4.webp",
-    },
-    {
-      original: "/Peb/Gallery 5.webp",
-      thumbnail: "/Peb/Gallery 5.webp",
-    },
-    {
-      original: "/Peb/Gallery 6.webp",
-      thumbnail: "/Peb/Gallery 6.webp",
-    },
-    {
-      original: "/Peb/Gallery 7.webp",
-      thumbnail: "/Peb/Gallery 7.webp",
-    },
-    {
-      original: "/Peb/Gallery 8.webp",
-      thumbnail: "/Peb/Gallery 8.webp",
-    },
-    {
-      original: "/Peb/Gallery 9.webp",
-      thumbnail: "/Peb/Gallery 9.webp",
-    },
+    "/Space_Frame/gallery_01.avif",
+  "/Space_Frame/gallery_02.avif",
+  "/Space_Frame/gallery_03.avif",
+  "/Space_Frame/gallery_04.avif",
+  "/Space_Frame/gallery_05.avif",
+  "/Space_Frame/gallery_06.avif",
+  "/Space_Frame/gallery_07.avif",
+  "/Space_Frame/gallery_08.avif",
+  "/Space_Frame/gallery_09.avif"
   ],
 };
+
 
 // export const DesignServicesData = {
 //   banner: {

@@ -19,11 +19,11 @@ export const NavbarLinks = [
         url: "/multi-storey-building-manufacturer",
       },
       {
-        label: "Warehouse Shed",
+        label: "Warehouse Building",
         url: "/warehouse-shed-manufacturer-chennai",
       },
       {
-        label: "Industrial Shed",
+        label: "Industrial Building",
         url: "/peb-industrial-shed-supplier",
       },
       {

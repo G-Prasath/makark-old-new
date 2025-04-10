@@ -69,8 +69,8 @@ export const FooterData = {
     {
       title: "Contact Us",
       contactInfo: [
-        { type: "email", value: "Email : admin@mekark.com", url: "/" },
-        { type: "phone", value: "Phone : +91 97909 24754", url: "/" },
+        { type: "email", value: "Email : admin@mekark.com", url: "mailto:admin@mekark.com" },
+        { type: "phone", value: "Phone : +91 97909 24754", url: "tel:+919790924754" },
         { type: "address", value: "15,62nd street, Ashok Nagar, Chennai-600083" },
       ],
     },

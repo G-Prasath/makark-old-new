@@ -21,7 +21,7 @@ const Testimonials = () => {
           <div className="relative text-2xl md:text-5xl py-2 px-6 md:py-6 md:px-1 md:w-64 md:mx-auto text-gray-100 font-semibold leading-tight tracking-tight mb-0 z-20" data-aos="zoom-in-right" data-aos-duration="1500">
 
             <span className="md:block">What Our</span>
-            <span className="md-block">Customers</span>
+            <span className="md-block"> Customers </span>
             <span className="block">Are Saying!</span>
           </div>
 

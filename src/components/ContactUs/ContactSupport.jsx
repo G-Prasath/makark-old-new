@@ -79,7 +79,7 @@ const ContactSupport = () => {
           </p>
           <p className="text-center leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
             Our team is available round the clock for inquiries. Call us at
-            73388 16164, 90421 41191, 7823967387.
+            +91 97909 24754, <br/>Tel : 044 - 47709518
           </p>
         </div>
 

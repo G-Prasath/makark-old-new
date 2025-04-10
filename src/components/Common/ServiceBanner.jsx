@@ -4,7 +4,7 @@ import Breadcrum from "./Breadcrum";
 const ServiceBanner = ({ data, ServiceName }) => {
   return (
     <div>
-      <div className="relative lg:h-screen w-full aspect-video">
+      <div className="relative w-full md:aspect-video aspect-square">
         <img
           src={data.imageSrc}
           alt="Background Image"

@@ -352,34 +352,34 @@ export const CivilCostructionData = {
   ],
   whychoose: [
     {
-      title: "Increase sales",
+      title: "Expertise Across Sectors: ",
       description:
-        "Expertise Across Sectors: Comprehensive solutions for residential, commercial, and industrial construction.",
+        "Comprehensive solutions for residential, commercial, and industrial construction.",
     },
     {
-      title: "Enterprise-ready",
+      title: "Efficient Planning: ",
       description:
-        "Efficient Planning: Seamless construction planning and scheduling to save time and resources.",
+        "Seamless construction planning and scheduling to save time and resources.",
     },
     {
-      title: "Unlimited growth",
+      title: "High-Quality Standards: ",
       description:
-        "High-Quality Standards: Focus on construction safety and quality control.",
+        "Focus on construction safety and quality control.",
     },
     {
-      title: "Recommended by experts",
+      title: "Advanced Technology: ",
       description:
-        "Advanced Technology: Use of modern equipment and materials for durable results.",
+        "Use of modern equipment and materials for durable results.",
     },
     {
-      title: "Modern platform",
+      title: "End-to-End Services: ",
       description:
-        "End-to-End Services: From site preparation to project completion.",
+        "From site preparation to project completion.",
     },
     {
-      title: "Integrations",
+      title: "Professional Management: ",
       description:
-        "Professional Management: Expert project and construction management to ensure smooth execution",
+        "Expert project and construction management to ensure smooth execution",
     },
   ],
   gallery : [

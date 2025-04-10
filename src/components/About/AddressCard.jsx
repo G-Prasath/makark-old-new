@@ -31,7 +31,7 @@ const AddressCard = () => {
                     data-aos-duration="1000"
                   >
                     <h3 className="title">{item.name}</h3>
-                    <span className="post">{item.post}</span>
+                    {/* <span className="post">{item.post}</span> */}
                   </div>
                   <ul className="social">
                     <li>

@@ -1,43 +1,51 @@
 import React, { useState } from "react";
-import { AiOutlineDown } from "react-icons/ai";
 import Heading from "../Common/Heading/Heading";
 
 const PebFAQ = ({data}) => {
 
-  const [openIndex, setOpenIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(null);
+  const [showAll, setShowAll] = useState(false);
 
-  const handleToggle = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+  const toggleFAQ = (index) => {
+    setActiveIndex(index === activeIndex ? null : index);
+  };
+
+  const toggleShowAll = () => {
+    setShowAll((prev) => !prev);
   };
 
   return (
-    <main className="flex flex-col items-center justify-center md:py-28 py-10 px-5 bg-[#f5fbff]">
-      <div className="bg-white rounded-3xl lg:p-12 w-full mx-auto">
-        <Heading title="Frequently Asked Questions" secTitle="FAQ" />
-        {data.map((faq, index) => (
-          <details key={index} className="border-b border-blue-200 mb-4 p-4">
-            <summary
-              className="flex justify-between items-center cursor-pointer text-blue-900 text-lg"
-              onClick={() => handleToggle(index)}
+    <div className="w-full flex flex-col items-center px-4 py-8 bg-gray-100 ">
+      <Heading title="Frequently Asked Questions" secTitle="FAQ" />
+      <div className="w-full max-w-6xl space-y-4 my-4">
+        {(showAll ? data : data.slice(0, 4)).map((faq, index) => (
+          <div
+            key={index}
+            className={`bg-white rounded-xl shadow-md transition-all duration-300 ${
+              activeIndex === index ? 'ring-2 ring-[#305764]' : ''
+            }`}
+          >
+            <div
+              className="flex justify-between items-center cursor-pointer px-5 py-4"
+              onClick={() => toggleFAQ(index)}
             >
-              <span>{faq.question}</span>
-              <span className="ml-2 transition-transform duration-200 ease-in-out">
-                <AiOutlineDown
-                  className={`transform ${
-                    openIndex === index ? "rotate-180" : "rotate-0"
-                  }`}
-                />
+              <p className="text-base font-semibold text-gray-800">{faq.question}</p>
+              <span className="w-7 h-7 flex items-center justify-center bg-green-100 text-[#305764] rounded-full font-bold text-lg">
+                {activeIndex === index ? '-' : '+'}
               </span>
-            </summary>
-            {openIndex === index && (
-              <p className="text-gray-600 mt-2 bg-[#f5fbff] rounded-lg p-3">
-                {faq.answer}
-              </p>
-            )}
-          </details>
+            </div>
+            <div
+              className={`px-5 pt-0 text-gray-700 text-sm leading-relaxed overflow-hidden transition-max-height duration-500 ease-in-out ${
+                activeIndex === index ? 'max-h-96' : 'max-h-0'
+              }`}
+            >
+              <p className="pb-4">{faq.answer}</p>
+            </div>
+          </div>
         ))}
+
       </div>
-    </main>
+    </div>
   );
 };
 

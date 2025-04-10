@@ -31,7 +31,8 @@ const Wellfare = () => {
                     : "border-transparent"
                 }`}
               >
-                Events
+                Planned and Executed Events
+
               </a>
             </li>
             <li
@@ -48,7 +49,7 @@ const Wellfare = () => {
                     : "border-transparent"
                 }`}
               >
-                Celibirations
+                Celebrations
               </a>
             </li>
             <li

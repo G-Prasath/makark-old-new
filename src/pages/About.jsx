@@ -45,7 +45,7 @@ const About = () => {
       <OrganizationCulture />
       <WorkSafety />
       <AddressCard />
-      <EnvironmentSection />
+      {/* <EnvironmentSection /> */}
       {/* <Awards /> */}
       <ClientList />
       <Map />

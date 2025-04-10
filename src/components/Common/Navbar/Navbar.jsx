@@ -52,7 +52,7 @@ const Navbar = () => {
           </label>
           <div className="nav-content">
             <div className="logo">
-              <Link to="#">
+              <Link to="/">
                 <img src="/Home/logo.png" alt="" className="w-[100px]" />
               </Link>
             </div>

@@ -42,8 +42,7 @@ export const FooterData = {
     {
       title: "About Us",
       links: [
-        { text: "About us", url: "/" },
-        { text: "Our Products", url: "/" },
+        { text: "About us", url: "/about-us" },
         { text: "Blog", url: "/" },
         { text: "Careers", url: "/career" },
         { text: "Contact Us", url: "/contact-us" },
@@ -52,10 +51,10 @@ export const FooterData = {
     {
       title: "Our Services",
       links: [
-        { text: "Pre Engineered Building", url: "/" },
-        { text: "Warehouse shed", url: "/" },
-        { text: "Industrial shed", url: "/" },
-        { text: "Factory Buildings", url: "/" },
+        { text: "Pre Engineered Building", url: "/pre-engineered-building-manufacturer-company-chennai" },
+        { text: "Warehouse shed", url: "/warehouse-shed-manufacturer-chennai" },
+        { text: "Industrial shed", url: "/peb-industrial-shed-supplier" },
+        { text: "Factory Buildings", url: "/factory-building-manufacturer" },
       ],
     },
     {

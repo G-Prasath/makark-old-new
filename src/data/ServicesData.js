@@ -66,9 +66,9 @@ export const Manufacturing = {
     },
   ],
   units: [
-    "Every year, we award travelers' favorite destinations, hotels, restaurants, and things to do around the world.",
-    "Every year, we award travelers' favorite destinations, hotels, restaurants, and things to do around the world. favorite destinations, hotels, restaurants, and things to do around the world.",
-    "Every year, we award travelers' favorite destinations, hotels, restaurants, and things to do around the world.",
+    "Mekark’s manufacturing units are equipped with modern infrastructure, enabling seamless integration of welding, machining, and casting processes to meet diverse PEB structure requirements efficiently.",
+    "Each facility ensures precision in cutting, drilling, and milling, maintaining exact component standards vital for the strength, alignment, and durability of pre-engineered building systems.",
+    "Our plants strictly follow quality control protocols and safety standards, ensuring every stage of production supports compliance, eco-efficiency, and long-term structural reliability in all PEB projects.",
   ],
 };
 

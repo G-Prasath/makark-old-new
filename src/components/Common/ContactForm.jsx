@@ -1,22 +1,42 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { IoCloseCircle } from "react-icons/io5";
 import { ChooseList } from "../../data/Navbar";
-
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../../hooks/Schema";
 import { QueryForm } from "../../hooks/DataPass";
 
+import BtnLoading from "./BtnLoading";
+
 const ContactForm = ({ onClose }) => {
   const [loading, setLoading] = useState(false);
+  const formRef = useRef(null);
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (formRef.current && !formRef.current.contains(event.target)) {
+        onClose();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [onClose]);
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[9999]">
-      <div className="bg-blue-50 p-8 rounded-lg w-full max-w-md relative">
+      <div
+        ref={formRef}
+        className="bg-blue-50 p-8 rounded-lg w-full max-w-md relative"
+      >
         <div className="flex items-center justify-between mb-5">
           <h2 className="text-2xl text-gray-500">Contact Us</h2>
           <IoCloseCircle
             onClick={onClose}
-            className="text-2xl cursor-pointer text-red-400 hover:text-red-6 00"
+            className="text-2xl cursor-pointer text-red-400 hover:text-red-600"
           />
         </div>
 
@@ -32,12 +52,22 @@ const ContactForm = ({ onClose }) => {
           onSubmit={async (values, { resetForm }) => {
             setLoading(true);
             try {
+              // const { data, error } = await QueryForm(values);
+              // if (!error) {
+
+              //   resetForm();
+              //   onClose(); // Close the form
+              //   navigate("/thank-you"); // Redirect to /thank-you page
+              // }
+              setTimeout(() => {
+                setLoading(false);
+                navigate("/thank-you");
+                resetForm();
+              }, 2000);
               const { data, error } = await QueryForm(values);
               resetForm();
             } catch (error) {
               console.log(error);
-            } finally {
-              setLoading(false);
             }
           }}
         >
@@ -114,9 +144,10 @@ const ContactForm = ({ onClose }) => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600"
+                disabled={loading}
+                className={`w-full ${loading ? 'bg-none' : 'bg-blue-500 hover:bg-blue-600'} text-white py-2 rounded-md `}
               >
-                Send Message
+                 {loading ? <BtnLoading /> : "Submit"}
               </button>
             </Form>
           )}

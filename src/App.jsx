@@ -32,9 +32,6 @@ import Mlcp from "./pages/Mlcp";
 import Manufacturing from "./pages/Manufacturing";
 import SpaceFrameStructure from "./pages/SpaceFrameStructure";
 
-
-
-
 // import Mep from "./pages/Mep";
 // import DesignServices from "./pages/DesignServices";
 
@@ -59,6 +56,7 @@ import NotFound from "./pages/NotFound";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ScrolltoTop from "./hooks/ScrolltoTop";
+import Thankyou from "./pages/Thankyou";
 
 const MainLayout = () => (
   <div>
@@ -89,46 +87,62 @@ const App = () => {
     Aos.init({ once: true });
   }, []);
 
-
   const routes = [
-    { path: '/', element: <Home /> },
-    { path: '/about-us', element: <About /> },
-  
-    // Products / Services
-    { path: '/pre-engineered-building-manufacturer-company-chennai', element: <Peb /> },
-    { path: '/multi-storey-building-manufacturer', element: <MultistorySteelBuilding /> },
-    { path: '/warehouse-shed-manufacturer-chennai', element: <WarehouseShed /> },
-    { path: '/peb-industrial-shed-supplier', element: <IndustrialShed /> },
-    { path: '/factory-building-manufacturer', element: <FactoryBuildings /> },
-    { path: '/civil-construction-company-chennai', element: <CivilConstruction /> },
-    { path: '/solar-panel-manufacturer-and-installer', element: <Solor /> },
-    { path: '/Institutional-building-construction', element: <InstitutionalBuilding /> },
-    { path: '/multi-level-car-parking-system-manufacturer-company-chennai', element: <Mlcp /> },
-    { path: '/tensile-fabric-roofing', element: <Tensile /> },
-    { path: '/manufacturing', element: <Manufacturing /> },
-    { path: '/space-frame-structure-building', element: <SpaceFrameStructure /> },
+    { path: "/", element: <Home /> },
+    { path: "/about-us", element: <About /> },
 
+    // Products / Services
+    {
+      path: "/pre-engineered-building-manufacturer-company-chennai",
+      element: <Peb />,
+    },
+    {
+      path: "/multi-storey-building-manufacturer",
+      element: <MultistorySteelBuilding />,
+    },
+    {
+      path: "/warehouse-shed-manufacturer-chennai",
+      element: <WarehouseShed />,
+    },
+    { path: "/peb-industrial-shed-supplier", element: <IndustrialShed /> },
+    { path: "/factory-building-manufacturer", element: <FactoryBuildings /> },
+    {
+      path: "/civil-construction-company-chennai",
+      element: <CivilConstruction />,
+    },
+    { path: "/solar-panel-manufacturer-and-installer", element: <Solor /> },
+    {
+      path: "/Institutional-building-construction",
+      element: <InstitutionalBuilding />,
+    },
+    {
+      path: "/multi-level-car-parking-system-manufacturer-company-chennai",
+      element: <Mlcp />,
+    },
+    { path: "/tensile-fabric-roofing", element: <Tensile /> },
+    { path: "/manufacturing", element: <Manufacturing /> },
+    {
+      path: "/space-frame-structure-building",
+      element: <SpaceFrameStructure />,
+    },
 
     // { path: '/mep-consultant-chennai', element: <MEP /> },
     // { path: '/architectural-design-detailing-drafting-chennai', element: <DesignService /> },
 
-  
     // Blog, Media, Info
-    { path: '/blog', element: <Blog /> },
-    { path: '/gallery', element: <ProjectGallery /> },
-    { path: '/videos', element: <ProjectVideos /> },
-    { path: '/infographics', element: <Infographics /> },
-  
+    { path: "/blog", element: <Blog /> },
+    { path: "/gallery", element: <ProjectGallery /> },
+    { path: "/videos", element: <ProjectVideos /> },
+    { path: "/infographics", element: <Infographics /> },
+
     // Contact
-    { path: '/contact-us', element: <Contact /> },
-  
+    { path: "/contact-us", element: <Contact /> },
+
     // Optional Events (commented)
     // { path: '/chennai-events', element: <ChennaiEvents /> },
     // { path: '/madurai-events', element: <MaduraiEvents /> },
     // { path: '/office-celebration', element: <OfficeCelibrations /> },
   ];
-  
-  
 
   return (
     <ScrollProvider>
@@ -137,17 +151,16 @@ const App = () => {
           <Suspense fallback={<SkeletonLoader />}>
             <Routes>
               <Route element={<MainLayout />}>
-                {
-                  routes.map((route, index) => (
-                    <Route
-                      key={index}
-                      path={route.path}
-                      element={route.element}
-                    />
-                  ))
-                }
+                {routes.map((route, index) => (
+                  <Route
+                    key={index}
+                    path={route.path}
+                    element={route.element}
+                  />
+                ))}
               </Route>
               <Route element={<NoNavbarLayout />}>
+                <Route path="/thank-you" element={<Thankyou />} />
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>

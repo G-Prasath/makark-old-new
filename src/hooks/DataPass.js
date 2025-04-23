@@ -9,7 +9,7 @@ export const QueryForm = async(values) => {
   );
 
   try {
-    const response = await axios.post("https://inbuild-mail.onrender.com/api/query-form", updatedValues);
+    const response = await axios.post("https://mekark-mail-server.onrender.com/api/enquiry-form", updatedValues);
     return { data: response.status, error: null };
   } catch (error) {
     return { data: null, error: error };
@@ -26,7 +26,7 @@ export const CareerFormData = async(values) => {
     ])
   );
   try {
-    const response = await axios.post("https://inbuild-mail.onrender.com/api/career-form", updatedValues,  {headers: {
+    const response = await axios.post("https://mekark-mail-server.onrender.com/api/career-form", updatedValues,  {headers: {
       'Content-Type': 'multipart/form-data'
     }});
     return { data: response.status, error: null };

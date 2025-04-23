@@ -2,9 +2,13 @@ import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../../hooks/Schema";
 import { QueryForm } from "../../hooks/DataPass";
+import { useNavigate } from "react-router-dom";
+
+import BtnLoading from "../Common/BtnLoading";
 
 const PageBannerForm = ({ serviceName }) => {
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
   return (
     <header className="lg:bg-transparent bg-gray-200 lg:backdrop-blur-md w-full lg:p-10 p-5">
       <div className="flex items-center justify-center">
@@ -27,18 +31,20 @@ const PageBannerForm = ({ serviceName }) => {
               email: "",
               phone: "",
               message: "",
-              select: "",
+              select:serviceName
             }}
             validationSchema={validationSchema}
             onSubmit={async (values, { resetForm }) => {
               setLoading(true);
               try {
                 const { data, error } = await QueryForm(values);
-                resetForm();
+                if (!error) {
+                  setLoading(false);
+                  navigate("/thank-you");
+                  resetForm();
+                }
               } catch (error) {
                 console.log(error);
-              } finally {
-                setLoading(false);
               }
             }}
           >
@@ -101,6 +107,7 @@ const PageBannerForm = ({ serviceName }) => {
 
                 <div>
                   <Field
+                    type="text"
                     id="select"
                     name="select"
                     readOnly
@@ -124,9 +131,11 @@ const PageBannerForm = ({ serviceName }) => {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full bg-[#305764] text-white rounded-lg py-3.5 px-5 text-md hover:bg-[#d29f6a] shadow-lg"
+                    className={`w-full ${
+                      loading ? "bg-none" : "bg-[#305764] hover:bg-[#d29f6a]"
+                    }  text-white rounded-lg py-3.5 px-5 text-md shadow-lg`}
                   >
-                    {loading ? "Submitting..." : "Submit"}
+                    {loading ? <BtnLoading /> : "Submit"}
                   </button>
                 </div>
               </Form>

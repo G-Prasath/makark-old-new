@@ -52,20 +52,13 @@ const ContactForm = ({ onClose }) => {
           onSubmit={async (values, { resetForm }) => {
             setLoading(true);
             try {
-              // const { data, error } = await QueryForm(values);
-              // if (!error) {
-
-              //   resetForm();
-              //   onClose(); // Close the form
-              //   navigate("/thank-you"); // Redirect to /thank-you page
-              // }
-              setTimeout(() => {
-                setLoading(false);
-                navigate("/thank-you");
-                resetForm();
-              }, 2000);
               const { data, error } = await QueryForm(values);
-              resetForm();
+              if (!error) {
+                setLoading(false);
+                resetForm();
+                onClose(); // Close the form
+                navigate("/thank-you"); // Redirect to /thank-you page
+              }
             } catch (error) {
               console.log(error);
             }
@@ -119,9 +112,10 @@ const ContactForm = ({ onClose }) => {
                 />
               </div>
               <div>
-                <select
-                  id="service"
-                  name="service"
+                <Field
+                  as="select"
+                  id="select"
+                  name="select"
                   className="mt-1  p-2   outline-none focus:border focus:border-blue-300 block w-full border-gray-300 rounded-md shadow-sm"
                 >
                   <option value="">Select a service (optional)</option>
@@ -130,7 +124,7 @@ const ContactForm = ({ onClose }) => {
                       {item}
                     </option>
                   ))}
-                </select>
+                </Field>
               </div>
               <div>
                 <Field
@@ -145,9 +139,11 @@ const ContactForm = ({ onClose }) => {
               <button
                 type="submit"
                 disabled={loading}
-                className={`w-full ${loading ? 'bg-none' : 'bg-blue-500 hover:bg-blue-600'} text-white py-2 rounded-md `}
+                className={`w-full ${
+                  loading ? "bg-none" : "bg-blue-500 hover:bg-blue-600"
+                } text-white py-2 rounded-md `}
               >
-                 {loading ? <BtnLoading /> : "Submit"}
+                {loading ? <BtnLoading /> : "Submit"}
               </button>
             </Form>
           )}

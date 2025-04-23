@@ -3,9 +3,12 @@ import { ChooseList } from "../../data/Navbar";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../../hooks/Schema";
 import { QueryForm } from "../../hooks/DataPass";
+import { useNavigate } from "react-router-dom";
+import BtnLoading from "../Common/BtnLoading";
 
 const PebForm = ({ data }) => {
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -30,11 +33,13 @@ const PebForm = ({ data }) => {
               setLoading(true);
               try {
                 const { data, error } = await QueryForm(values);
-                resetForm();
+                if (!error) {
+                  setLoading(false);
+                  navigate("/thank-you");
+                  resetForm();
+                }
               } catch (error) {
                 console.log(error);
-              } finally {
-                setLoading(false);
               }
             }}
           >
@@ -155,11 +160,15 @@ const PebForm = ({ data }) => {
                   <div className="-mx-3 md:flex mt-2">
                     <div className="md:w-full px-3">
                       <button
-                       type="submit"
-                       disabled={loading}
-                        className="w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-500 hover:border-gray-100 rounded-full"
+                        type="submit"
+                        disabled={loading}
+                        className={`w-full ${
+                          loading
+                            ? "bg-none"
+                            : "bg-gray-900 hover:border-b-2 border-gray-500 hover:border-gray-100"
+                        } text-white font-bold py-2 px-4 border-b-4  rounded-full`}
                       >
-                        {loading ? "Submitting..." : "Submit"}
+                        {loading ? <BtnLoading /> : "Submit"}
                       </button>
                     </div>
                   </div>

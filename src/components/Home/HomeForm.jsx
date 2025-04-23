@@ -5,10 +5,13 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../../hooks/Schema";
 import { QueryForm } from "../../hooks/DataPass";
 
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import BtnLoading from "../Common/BtnLoading";
+import { useNavigate } from "react-router-dom";
 
 const HomeForm = () => {
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <header className="bg-gray-100 lg:py-20 md:pb-14 max-sm:pb-12">
@@ -37,11 +40,13 @@ const HomeForm = () => {
               setLoading(true);
               try {
                 const { data, error } = await QueryForm(values);
-                resetForm();
+                if (!error) {
+                  setLoading(false);
+                  navigate("/thank-you");
+                  resetForm();
+                }
               } catch (error) {
                 console.log(error);
-              } finally {
-                setLoading(false);
               }
             }}
           >
@@ -132,9 +137,11 @@ const HomeForm = () => {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full bg-[#305764] text-white rounded-lg py-3.5 px-5 text-md hover:bg-[#d29f6a] shadow-lg"
+                    className={`w-full ${
+                      loading ? "bg-none" : "bg-[#305764] hover:bg-[#d29f6a]"
+                    } text-white rounded-lg py-3.5 px-5 text-md  shadow-lg`}
                   >
-                    {loading ? "Submitting..." : "Submit"}
+                    {loading ? <BtnLoading /> : "Submit"}
                   </button>
                 </div>
               </Form>

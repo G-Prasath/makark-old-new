@@ -4,15 +4,18 @@ import { ChooseList } from "../../data/Navbar";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "../../hooks/Schema";
 import { QueryForm } from "../../hooks/DataPass";
+import { useNavigate } from "react-router-dom";
+import BtnLoading from "../Common/BtnLoading";
 
-const ServiceForm = ({serviceName}) => {
+const ServiceForm = ({ serviceName }) => {
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
   return (
     <section className="pt-5 pb-5">
       <div className="">
         <div className="flex justify-center border border-t-red-700 rounded-tr-lg rounded-tl-lg">
           <div className="bg-white relative p-5 md:px-20 rounded-lg overflow-hidden flex justify-between w-full">
-            <div className="absolute top-0 right-0"> 
+            <div className="absolute top-0 right-0">
               <img
                 src="https://i.ibb.co/bRJVsq5/contact-us-box-bg.png"
                 alt="signup"
@@ -33,14 +36,18 @@ const ServiceForm = ({serviceName}) => {
                     email: "",
                     phone: "",
                     message: "",
-                    select: "",
+                    select: serviceName,
                   }}
                   validationSchema={validationSchema}
                   onSubmit={async (values, { resetForm }) => {
                     setLoading(true);
                     try {
+                      setTimeout(() => {
+                        setLoading(false);
+                        navigate("/thank-you");
+                        resetForm();
+                      }, 2000);
                       const { data, error } = await QueryForm(values);
-                      resetForm();
                     } catch (error) {
                       console.log(error);
                     } finally {
@@ -119,9 +126,9 @@ const ServiceForm = ({serviceName}) => {
                         <button
                           type="submit"
                           disabled={loading}
-                          className="bg-red-500 w-full text-white font-semibold uppercase py-2 px-8 rounded-md cursor-pointer hover:bg-red-600 transition"
+                          className={`${loading ? 'bg-none' : 'bg-red-500 hover:bg-red-600'}  w-full text-white font-semibold uppercase py-2 px-8 rounded-md cursor-pointer transition`}
                         >
-                          {loading ? "Submitting..." : "Submit"}
+                          {loading ? <BtnLoading/> : "Submit"}
                         </button>
                       </div>
                     </Form>

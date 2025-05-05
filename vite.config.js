@@ -24,11 +24,60 @@ export default defineConfig({
         "/manufacturing",
         "/space-frame-structure-building",
 
-        "/contact-us"
+        "/contact-us",
       ],
     }),
   ],
   build: {
-    outDir: "dist", // Default output directory
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Bundle React-related libs
+          react: [
+            "react",
+            "react-dom",
+            "react-router-dom",
+            "react-helmet",
+            "react-helmet-async",
+          ],
+
+          // Utility libraries
+          utilities: ["lodash-es", "axios"],
+
+          // UI and animation libraries
+          ui: [
+            "@splidejs/react-splide",
+            "aos",
+            "react-image-gallery",
+            "react-loading-skeleton",
+          ],
+
+          // Form and validation related
+          form: ["formik", "yup"],
+
+          // Optional: combine smaller dependencies into one "vendor" chunk
+          vendor: [
+            "tslib",
+            "prop-types",
+            "tiny-warning",
+            "invariant",
+            "shallowequal",
+            "object-assign",
+            "deepmerge",
+            "hoist-non-react-statics",
+            "toposort",
+            "property-expr",
+            "react-side-effect",
+            "tiny-case",
+            "react-fast-compare",
+            "scheduler",
+            "react-is",
+            "@remix-run/router",
+          ],
+        },
+      },
+    },
+    outDir: "dist",
   },
+
 });

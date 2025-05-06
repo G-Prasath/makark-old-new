@@ -58,7 +58,7 @@ const Banner = () => {
 
       {/* Thumbnails */}
       <Splide
-        className="absolute bottom-[10%] right-0 md:bottom-[40%] md:right-0 w-[120px] md:w-[230px] z-[999] bg-slate-200 md:p-2 p-1 rounded-l-md"
+        className="absolute bottom-[25%] float-right md:bottom-[40%] md:float-right w-[120px] md:w-[230px] z-[999] bg-slate-200 md:p-2 p-1 rounded-l-md"
         
         options={{
           fixedWidth: 100,

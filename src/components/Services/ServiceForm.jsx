@@ -46,11 +46,10 @@ const ServiceForm = ({ serviceName }) => {
                         setLoading(false);
                         navigate("/thank-you");
                         resetForm();
-                      }, 2000);
+                      }, 1000);
                       const { data, error } = await QueryForm(values);
                     } catch (error) {
                       console.log(error);
-                    } finally {
                       setLoading(false);
                     }
                   }}
@@ -126,9 +125,11 @@ const ServiceForm = ({ serviceName }) => {
                         <button
                           type="submit"
                           disabled={loading}
-                          className={`${loading ? 'bg-none' : 'bg-red-500 hover:bg-red-600'}  w-full text-white font-semibold uppercase py-2 px-8 rounded-md cursor-pointer transition`}
+                          className={`${
+                            loading ? "bg-none" : "bg-red-500 hover:bg-red-600"
+                          }  w-full text-white font-semibold uppercase py-2 px-8 rounded-md cursor-pointer transition`}
                         >
-                          {loading ? <BtnLoading/> : "Submit"}
+                          {loading ? <BtnLoading /> : "Submit"}
                         </button>
                       </div>
                     </Form>

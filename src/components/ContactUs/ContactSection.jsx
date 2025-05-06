@@ -35,8 +35,8 @@ const ContactSection = () => {
         <div className="mb-10 text-center lg:text-left">
           <p className="lg:text-4xl text-2xl font-bold mt-4">
             On Time Everytime
-              <br />
-             Let us work on your Dream with you!
+            <br />
+            Let us work on your Dream with you!
           </p>
         </div>
 
@@ -44,7 +44,20 @@ const ContactSection = () => {
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
-          onSubmit={onSubmit}
+          onSubmit={async (values, { resetForm }) => {
+            setLoading(true);
+            try {
+              setTimeout(() => {
+                setLoading(false);
+                navigate("/thank-you");
+                resetForm();
+              }, 1000);
+              const { data, error } = await QueryForm(values);
+            } catch (error) {
+              console.log(error);
+              setLoading(false);
+            }
+          }}
         >
           {({ isSubmitting }) => (
             <Form className="space-y-6">

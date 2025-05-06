@@ -44,12 +44,10 @@ const CivilForm = () => {
                     setLoading(false);
                     navigate("/thank-you");
                     resetForm();
-                  }, 2000);
+                  }, 1000);
                   const { data, error } = await QueryForm(values);
-                  // resetForm();
                 } catch (error) {
                   console.log(error);
-                } finally {
                   setLoading(false);
                 }
               }}

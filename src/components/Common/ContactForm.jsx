@@ -52,15 +52,15 @@ const ContactForm = ({ onClose }) => {
           onSubmit={async (values, { resetForm }) => {
             setLoading(true);
             try {
-              const { data, error } = await QueryForm(values);
-              if (!error) {
+              setTimeout(() => {
                 setLoading(false);
+                navigate("/thank-you");
                 resetForm();
-                onClose(); // Close the form
-                navigate("/thank-you"); // Redirect to /thank-you page
-              }
+              }, 1000);
+              const { data, error } = await QueryForm(values);
             } catch (error) {
               console.log(error);
+              setLoading(false);
             }
           }}
         >

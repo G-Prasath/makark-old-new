@@ -14,49 +14,38 @@ import Navbar from "./components/Common/Navbar/Navbar";
 import Footer from "./components/Common/Footer";
 import { ScrollProvider } from "./hooks/ScrollContext";
 import Cta from "./components/Common/Cta";
-
-// Pages
-import Home from "./pages/Home";
-import About from "./pages/About";
-
-import Peb from "./pages/Peb";
-import MultistorySteelBuilding from "./pages/MultistorySteelBuilding";
-import WarehouseShed from "./pages/WarehouseShed";
-import IndustrialShed from "./pages/IndustrialShed";
-import FactoryBuildings from "./pages/FactoryBuildings";
-import InstitutionalBuilding from "./pages/InstitutionalBuilding";
-import CivilConstruction from "./pages/CivilConstruction";
-import Solor from "./pages/Solor";
-import Tensile from "./pages/Tensile";
-import Mlcp from "./pages/Mlcp";
-import Manufacturing from "./pages/Manufacturing";
-import SpaceFrameStructure from "./pages/SpaceFrameStructure";
-
-// import Mep from "./pages/Mep";
-// import DesignServices from "./pages/DesignServices";
-
-// import PressurePart from "./pages/PressurePart";
-// import NonPressurePart from "./pages/NonPressurePart";
-// import StorageUnit from "./pages/StorageUnit";
-
-import ProjectGallery from "./pages/ProjectGallery";
-import ProjectVideos from "./pages/ProjectVideos";
-import Infographics from "./pages/Infographics";
-import Blog from "./pages/Blog";
-
-// import ChennaiEvents from "./pages/ChennaiEvents";
-// import OfficeCelibrations from "./pages/OfficeCelibrations";
-// import MaduraiEvents from "./pages/MaduraiEvents";
-
-import Contact from "./pages/Contact";
-// import Careers from "./pages/Careers";
-// import PrivacyPolicy from "./pages/PrivacyPolicy";
-import NotFound from "./pages/NotFound";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ScrolltoTop from "./hooks/ScrolltoTop";
-import Thankyou from "./pages/Thankyou";
+
+// Dynamically imported pages
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const Peb = lazy(() => import("./pages/Peb"));
+const MultistorySteelBuilding = lazy(() =>
+  import("./pages/MultistorySteelBuilding")
+);
+const WarehouseShed = lazy(() => import("./pages/WarehouseShed"));
+const IndustrialShed = lazy(() => import("./pages/IndustrialShed"));
+const FactoryBuildings = lazy(() => import("./pages/FactoryBuildings"));
+const InstitutionalBuilding = lazy(() =>
+  import("./pages/InstitutionalBuilding")
+);
+const CivilConstruction = lazy(() => import("./pages/CivilConstruction"));
+const Solor = lazy(() => import("./pages/Solor"));
+const Tensile = lazy(() => import("./pages/Tensile"));
+const Mlcp = lazy(() => import("./pages/Mlcp"));
+const Manufacturing = lazy(() => import("./pages/Manufacturing"));
+const SpaceFrameStructure = lazy(() =>
+  import("./pages/SpaceFrameStructure")
+);
+const ProjectGallery = lazy(() => import("./pages/ProjectGallery"));
+const ProjectVideos = lazy(() => import("./pages/ProjectVideos"));
+const Infographics = lazy(() => import("./pages/Infographics"));
+const Blog = lazy(() => import("./pages/Blog"));
+const Contact = lazy(() => import("./pages/Contact"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const Thankyou = lazy(() => import("./pages/Thankyou"));
 
 const MainLayout = () => (
   <div>
@@ -90,8 +79,6 @@ const App = () => {
   const routes = [
     { path: "/", element: <Home /> },
     { path: "/about-us", element: <About /> },
-
-    // Products / Services
     {
       path: "/pre-engineered-building-manufacturer-company-chennai",
       element: <Peb />,
@@ -125,23 +112,11 @@ const App = () => {
       path: "/space-frame-structure-building",
       element: <SpaceFrameStructure />,
     },
-
-    // { path: '/mep-consultant-chennai', element: <MEP /> },
-    // { path: '/architectural-design-detailing-drafting-chennai', element: <DesignService /> },
-
-    // Blog, Media, Info
     { path: "/blog", element: <Blog /> },
     { path: "/gallery", element: <ProjectGallery /> },
     { path: "/videos", element: <ProjectVideos /> },
     { path: "/infographics", element: <Infographics /> },
-
-    // Contact
     { path: "/contact-us", element: <Contact /> },
-
-    // Optional Events (commented)
-    // { path: '/chennai-events', element: <ChennaiEvents /> },
-    // { path: '/madurai-events', element: <MaduraiEvents /> },
-    // { path: '/office-celebration', element: <OfficeCelibrations /> },
   ];
 
   return (

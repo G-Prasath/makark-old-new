@@ -32,14 +32,15 @@ const PebForm = ({ data }) => {
             onSubmit={async (values, { resetForm }) => {
               setLoading(true);
               try {
-                const { data, error } = await QueryForm(values);
-                if (!error) {
+                setTimeout(() => {
                   setLoading(false);
                   navigate("/thank-you");
                   resetForm();
-                }
+                }, 1000);
+                const { data, error } = await QueryForm(values);
               } catch (error) {
                 console.log(error);
+                setLoading(false);
               }
             }}
           >

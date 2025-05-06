@@ -40,7 +40,7 @@ const Navbar = () => {
     <div className="relative z-[9999] w-full">
       <div className={`wrapper fixed max-md:sm bg-[#f5fbff] shadow-lg`}>
         <nav>
-          <input type="checkbox" id="show-search" />
+          {/* <input type="checkbox" id="show-search" /> */}
           <input
             type="checkbox"
             id="show-menu"
@@ -96,9 +96,9 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <label htmlFor="show-search" className="search-icon">
+          {/* <label htmlFor="show-search" className="search-icon">
             <i className="fas fa-search text-[#305764]"></i>
-          </label>
+          </label> */}
 
           <form action="#" className="search-box">
             <input type="text" placeholder="Search Something..." required />
